@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 52294eaac76b8c34ab097626fb51cdab
+guid: c95fa7011d0fcf3408e72b33779ed7df
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -141,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: doc_0
+      name: pumpkin_dude_0
       rect:
         serializedVersion: 2
         x: 0
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4687d22e3153224a85f8aec59e0c765
-      internalID: 1509945775
+      spriteID: 79b0f5d8341c9f0478211ace688f96ef
+      internalID: 411945093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doc_1
+      name: pumpkin_dude_1
       rect:
         serializedVersion: 2
         x: 16
@@ -176,14 +176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d574816a8e80ea146a23da1a590808d6
-      internalID: 883426922
+      spriteID: d17e0e0bda9bf6b469004fc81f30df5b
+      internalID: 830565979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doc_2
+      name: pumpkin_dude_2
       rect:
         serializedVersion: 2
         x: 32
@@ -197,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 043eada36c55c984fbd2b270c2e5f1e2
-      internalID: -724022255
+      spriteID: 9cb98467e6b451d4bb200da85575d39f
+      internalID: -732644735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doc_3
+      name: pumpkin_dude_3
       rect:
         serializedVersion: 2
         x: 48
@@ -218,14 +218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b0f2f81b2270904a934a7afa7c63a73
-      internalID: -1481999243
+      spriteID: e8f456a0344574249987f1f3010ff0b2
+      internalID: 1141375960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doc_4
+      name: pumpkin_dude_4
       rect:
         serializedVersion: 2
         x: 64
@@ -239,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8e812f2710510843bd36483790cf65d
-      internalID: 735182598
+      spriteID: 88925a5d529f4ec498598a12bab3d1ff
+      internalID: 570575179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doc_5
+      name: pumpkin_dude_5
       rect:
         serializedVersion: 2
         x: 80
@@ -260,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44e76c0f877e7f6498dcedc52b9d7025
-      internalID: 1787843107
+      spriteID: 6fb89ce1d3f0ac843b06d02746d86d34
+      internalID: -2040949472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doc_6
+      name: pumpkin_dude_6
       rect:
         serializedVersion: 2
         x: 96
@@ -281,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72e828be81c21f2428a9ecea1c34af4d
-      internalID: -1987917056
+      spriteID: de86a4ee9a80a55429026282eb947f85
+      internalID: -364476364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doc_7
+      name: pumpkin_dude_7
       rect:
         serializedVersion: 2
         x: 112
@@ -302,8 +302,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f905f1a21766c64ca2fe63ced0d859d
-      internalID: -1550170360
+      spriteID: 6d520e242d3a9624297aca755a533220
+      internalID: 703752723
       vertices: []
       indices: 
       edges: []
@@ -319,14 +319,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      doc_3: -1481999243
-      doc_1: 883426922
-      doc_7: -1550170360
-      doc_2: -724022255
-      doc_0: 1509945775
-      doc_4: 735182598
-      doc_6: -1987917056
-      doc_5: 1787843107
+      pumpkin_dude_5: -2040949472
+      pumpkin_dude_2: -732644735
+      pumpkin_dude_0: 411945093
+      pumpkin_dude_4: 570575179
+      pumpkin_dude_3: 1141375960
+      pumpkin_dude_1: 830565979
+      pumpkin_dude_7: 703752723
+      pumpkin_dude_6: -364476364
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
