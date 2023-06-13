@@ -417,7 +417,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_23
+      name: Weapon_Dagger
       rect:
         serializedVersion: 2
         x: 293
@@ -438,7 +438,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_27
+      name: Minion_Flesh_1
       rect:
         serializedVersion: 2
         x: 368
@@ -459,7 +459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_28
+      name: Minion_Flesh_2
       rect:
         serializedVersion: 2
         x: 384
@@ -480,7 +480,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_29
+      name: Minion_Flesh_3
       rect:
         serializedVersion: 2
         x: 400
@@ -501,7 +501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_30
+      name: Minion_Flesh_4
       rect:
         serializedVersion: 2
         x: 416
@@ -522,7 +522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_31
+      name: Minion_Flesh_5
       rect:
         serializedVersion: 2
         x: 432
@@ -543,7 +543,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_32
+      name: Minion_Flesh_6
       rect:
         serializedVersion: 2
         x: 448
@@ -564,7 +564,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_33
+      name: Minion_Flesh_7
       rect:
         serializedVersion: 2
         x: 464
@@ -585,7 +585,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_34
+      name: Minion_Flesh_8
       rect:
         serializedVersion: 2
         x: 480
@@ -732,7 +732,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_51
+      name: Weapon_ShortSword_1
       rect:
         serializedVersion: 2
         x: 307
@@ -753,7 +753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_52
+      name: Weapon_ShortSword_2
       rect:
         serializedVersion: 2
         x: 323
@@ -774,7 +774,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_53
+      name: Weapon_ShortSword_3
       rect:
         serializedVersion: 2
         x: 339
@@ -795,7 +795,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_54
+      name: Minion_Goblin_1
       rect:
         serializedVersion: 2
         x: 368
@@ -816,7 +816,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_55
+      name: Minion_Goblin_2
       rect:
         serializedVersion: 2
         x: 384
@@ -837,7 +837,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_56
+      name: Minion_Goblin_3
       rect:
         serializedVersion: 2
         x: 400
@@ -858,7 +858,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_57
+      name: Minion_Goblin_4
       rect:
         serializedVersion: 2
         x: 416
@@ -879,7 +879,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_58
+      name: Minion_Goblin_5
       rect:
         serializedVersion: 2
         x: 432
@@ -900,7 +900,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_59
+      name: Minion_Goblin_6
       rect:
         serializedVersion: 2
         x: 448
@@ -921,7 +921,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_60
+      name: Minion_Goblin_7
       rect:
         serializedVersion: 2
         x: 464
@@ -942,7 +942,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_61
+      name: Minion_Goblin_8
       rect:
         serializedVersion: 2
         x: 480
@@ -1236,7 +1236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_81
+      name: Minion_Imp_1
       rect:
         serializedVersion: 2
         x: 368
@@ -1257,7 +1257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_82
+      name: Minion_Imp_2
       rect:
         serializedVersion: 2
         x: 384
@@ -1278,7 +1278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_83
+      name: Minion_Imp_3
       rect:
         serializedVersion: 2
         x: 400
@@ -1299,7 +1299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_84
+      name: Minion_Imp_4
       rect:
         serializedVersion: 2
         x: 416
@@ -1320,7 +1320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_85
+      name: Minion_Imp_5
       rect:
         serializedVersion: 2
         x: 432
@@ -1341,7 +1341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_86
+      name: Minion_Imp_6
       rect:
         serializedVersion: 2
         x: 448
@@ -1362,7 +1362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_87
+      name: Minion_Imp_7
       rect:
         serializedVersion: 2
         x: 464
@@ -1383,7 +1383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_88
+      name: Minion_Imp_8
       rect:
         serializedVersion: 2
         x: 480
@@ -1530,15 +1530,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_104
+      name: Weapon_Hammer_1
       rect:
         serializedVersion: 2
         x: 291
         y: 432
         width: 10
         height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1551,7 +1551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_105
+      name: Weapon_Hammer_2
       rect:
         serializedVersion: 2
         x: 307
@@ -1572,7 +1572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_106
+      name: Weapon_Mace_1
       rect:
         serializedVersion: 2
         x: 323
@@ -1593,7 +1593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_107
+      name: Weapon_Mace_2
       rect:
         serializedVersion: 2
         x: 339
@@ -1866,7 +1866,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_127
+      name: Minion_Skull_1
       rect:
         serializedVersion: 2
         x: 368
@@ -1887,7 +1887,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_128
+      name: Minion_Skull_2
       rect:
         serializedVersion: 2
         x: 384
@@ -1908,7 +1908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_129
+      name: Minion_Skull_3
       rect:
         serializedVersion: 2
         x: 400
@@ -1929,7 +1929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_130
+      name: Minion_Skull_4
       rect:
         serializedVersion: 2
         x: 416
@@ -1950,7 +1950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_131
+      name: Minion_Skull_5
       rect:
         serializedVersion: 2
         x: 432
@@ -1971,7 +1971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_132
+      name: Minion_Skull_6
       rect:
         serializedVersion: 2
         x: 448
@@ -1992,7 +1992,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_133
+      name: Minion_Skull_7
       rect:
         serializedVersion: 2
         x: 464
@@ -2013,7 +2013,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_134
+      name: Minion_Skull_8
       rect:
         serializedVersion: 2
         x: 480
@@ -2160,7 +2160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_152
+      name: Weapon_GaintSword_1
       rect:
         serializedVersion: 2
         x: 322
@@ -2181,7 +2181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_153
+      name: Weapon_Axe_1
       rect:
         serializedVersion: 2
         x: 341
@@ -2517,7 +2517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_173
+      name: Minion_Element_Earth_1
       rect:
         serializedVersion: 2
         x: 368
@@ -2538,7 +2538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_174
+      name: Minion_Element_Earth_2
       rect:
         serializedVersion: 2
         x: 384
@@ -2559,7 +2559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_175
+      name: Minion_Element_Earth_3
       rect:
         serializedVersion: 2
         x: 400
@@ -2580,7 +2580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_176
+      name: Minion_Element_Earth_4
       rect:
         serializedVersion: 2
         x: 416
@@ -2601,7 +2601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_177
+      name: Minion_Element_Venom_1
       rect:
         serializedVersion: 2
         x: 432
@@ -2622,7 +2622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_178
+      name: Minion_Element_Venom_2
       rect:
         serializedVersion: 2
         x: 448
@@ -2643,7 +2643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_179
+      name: Minion_Element_Venom_3
       rect:
         serializedVersion: 2
         x: 464
@@ -2664,7 +2664,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_180
+      name: Minion_Element_Venom_4
       rect:
         serializedVersion: 2
         x: 480
@@ -2874,7 +2874,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_199
+      name: Weapon_LongtSword_2
       rect:
         serializedVersion: 2
         x: 325
@@ -2895,7 +2895,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_200
+      name: Weapon_LongtSword_1
       rect:
         serializedVersion: 2
         x: 339
@@ -3252,7 +3252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_221
+      name: Minion_Element_Tree_1
       rect:
         serializedVersion: 2
         x: 368
@@ -3273,7 +3273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_222
+      name: Minion_Element_Tree_2
       rect:
         serializedVersion: 2
         x: 384
@@ -3294,7 +3294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_223
+      name: Minion_Element_Tree_3
       rect:
         serializedVersion: 2
         x: 400
@@ -3315,7 +3315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_224
+      name: Minion_Element_Tree_4
       rect:
         serializedVersion: 2
         x: 416
@@ -3336,7 +3336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_225
+      name: Minion_Element_Wind_1
       rect:
         serializedVersion: 2
         x: 432
@@ -3357,7 +3357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_226
+      name: Minion_Element_Wind_2
       rect:
         serializedVersion: 2
         x: 448
@@ -3378,7 +3378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_227
+      name: Minion_Element_Wind_3
       rect:
         serializedVersion: 2
         x: 464
@@ -3399,7 +3399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_228
+      name: Minion_Element_Wind_4
       rect:
         serializedVersion: 2
         x: 480
@@ -3504,7 +3504,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_242
+      name: Weapon_ShortSword_4
       rect:
         serializedVersion: 2
         x: 291
@@ -3525,7 +3525,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_243
+      name: Weapon_GaintSword_2
       rect:
         serializedVersion: 2
         x: 307
@@ -3546,7 +3546,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_244
+      name: Weapon_Staff_2
       rect:
         serializedVersion: 2
         x: 324
@@ -3567,7 +3567,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_245
+      name: Weapon_Staff_1
       rect:
         serializedVersion: 2
         x: 340
@@ -3882,7 +3882,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_266
+      name: Minion_Orc2_1
       rect:
         serializedVersion: 2
         x: 368
@@ -3903,7 +3903,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_267
+      name: Minion_Orc2_2
       rect:
         serializedVersion: 2
         x: 384
@@ -3924,7 +3924,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_268
+      name: Minion_Orc2_3
       rect:
         serializedVersion: 2
         x: 400
@@ -3945,7 +3945,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_269
+      name: Minion_Orc2_4
       rect:
         serializedVersion: 2
         x: 416
@@ -3966,7 +3966,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_270
+      name: Minion_Orc2_5
       rect:
         serializedVersion: 2
         x: 432
@@ -3987,7 +3987,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_271
+      name: Minion_Orc2_6
       rect:
         serializedVersion: 2
         x: 448
@@ -4008,7 +4008,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_272
+      name: Minion_Orc2_7
       rect:
         serializedVersion: 2
         x: 464
@@ -4029,7 +4029,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_273
+      name: Minion_Orc2_8
       rect:
         serializedVersion: 2
         x: 480
@@ -4176,7 +4176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_288
+      name: Weapon_Spear
       rect:
         serializedVersion: 2
         x: 293
@@ -4197,7 +4197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_289
+      name: Weapon_Arrow
       rect:
         serializedVersion: 2
         x: 308
@@ -4218,7 +4218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_290
+      name: Weapon_Bow
       rect:
         serializedVersion: 2
         x: 324
@@ -4428,7 +4428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_305
+      name: Minion_Orc1_1
       rect:
         serializedVersion: 2
         x: 368
@@ -4449,7 +4449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_306
+      name: Minion_Orc1_2
       rect:
         serializedVersion: 2
         x: 384
@@ -4470,7 +4470,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_307
+      name: Minion_Orc1_3
       rect:
         serializedVersion: 2
         x: 400
@@ -4491,7 +4491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_308
+      name: Minion_Orc1_4
       rect:
         serializedVersion: 2
         x: 416
@@ -4512,7 +4512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_309
+      name: Minion_Orc1_5
       rect:
         serializedVersion: 2
         x: 432
@@ -4533,7 +4533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_310
+      name: Minion_Orc1_6
       rect:
         serializedVersion: 2
         x: 448
@@ -4554,7 +4554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_311
+      name: Minion_Orc1_7
       rect:
         serializedVersion: 2
         x: 464
@@ -4575,7 +4575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_312
+      name: Minion_Orc1_8
       rect:
         serializedVersion: 2
         x: 480
@@ -5037,7 +5037,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_351
+      name: Minion_Orc3_1
       rect:
         serializedVersion: 2
         x: 368
@@ -5058,7 +5058,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_352
+      name: Minion_Orc3_2
       rect:
         serializedVersion: 2
         x: 384
@@ -5079,7 +5079,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_353
+      name: Minion_Orc3_3
       rect:
         serializedVersion: 2
         x: 400
@@ -5100,7 +5100,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_354
+      name: Minion_Orc3_4
       rect:
         serializedVersion: 2
         x: 416
@@ -5121,7 +5121,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_355
+      name: Minion_Orc3_5
       rect:
         serializedVersion: 2
         x: 432
@@ -5142,7 +5142,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_356
+      name: Minion_Orc3_6
       rect:
         serializedVersion: 2
         x: 448
@@ -5163,7 +5163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_357
+      name: Minion_Orc3_7
       rect:
         serializedVersion: 2
         x: 464
@@ -5184,7 +5184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_358
+      name: Minion_Orc3_8
       rect:
         serializedVersion: 2
         x: 480
@@ -5310,7 +5310,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_384
+      name: Minion_Soccer_1
       rect:
         serializedVersion: 2
         x: 368
@@ -5331,7 +5331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_385
+      name: Minion_Soccer_2
       rect:
         serializedVersion: 2
         x: 384
@@ -5352,7 +5352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_386
+      name: Minion_Soccer_3
       rect:
         serializedVersion: 2
         x: 400
@@ -5373,7 +5373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_387
+      name: Minion_Soccer_4
       rect:
         serializedVersion: 2
         x: 416
@@ -5394,7 +5394,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_388
+      name: Boss_TreeTorll_1
       rect:
         serializedVersion: 2
         x: 16
@@ -5415,7 +5415,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_390
+      name: Boss_TreeTorll_2
       rect:
         serializedVersion: 2
         x: 48
@@ -5436,7 +5436,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_392
+      name: Boss_TreeTorll_3
       rect:
         serializedVersion: 2
         x: 80
@@ -5457,7 +5457,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_394
+      name: Boss_TreeTorll_4
       rect:
         serializedVersion: 2
         x: 112
@@ -5478,7 +5478,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_396
+      name: Boss_TreeTorll_5
       rect:
         serializedVersion: 2
         x: 144
@@ -5499,7 +5499,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_398
+      name: Boss_TreeTorll_6
       rect:
         serializedVersion: 2
         x: 176
@@ -5520,7 +5520,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_400
+      name: Boss_TreeTorll_7
       rect:
         serializedVersion: 2
         x: 208
@@ -5541,7 +5541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_402
+      name: Boss_TreeTorll_8
       rect:
         serializedVersion: 2
         x: 240
@@ -5667,7 +5667,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_414
+      name: Minion_Demon1_1
       rect:
         serializedVersion: 2
         x: 368
@@ -5688,7 +5688,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_415
+      name: Minion_Demon1_2
       rect:
         serializedVersion: 2
         x: 384
@@ -5709,7 +5709,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_416
+      name: Minion_Demon1_3
       rect:
         serializedVersion: 2
         x: 400
@@ -5730,7 +5730,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_417
+      name: Minion_Demon1_4
       rect:
         serializedVersion: 2
         x: 416
@@ -5751,7 +5751,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_418
+      name: Minion_Demon1_5
       rect:
         serializedVersion: 2
         x: 432
@@ -5772,7 +5772,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_419
+      name: Minion_Demon1_6
       rect:
         serializedVersion: 2
         x: 448
@@ -5793,7 +5793,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_420
+      name: Minion_Demon1_7
       rect:
         serializedVersion: 2
         x: 464
@@ -5814,7 +5814,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_421
+      name: Minion_Demon1_8
       rect:
         serializedVersion: 2
         x: 480
@@ -6087,7 +6087,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_463
+      name: Minion_Demon2_1
       rect:
         serializedVersion: 2
         x: 368
@@ -6108,7 +6108,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_464
+      name: Minion_Demon2_2
       rect:
         serializedVersion: 2
         x: 384
@@ -6129,7 +6129,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_465
+      name: Minion_Demon2_3
       rect:
         serializedVersion: 2
         x: 400
@@ -6150,7 +6150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_466
+      name: Minion_Demon2_4
       rect:
         serializedVersion: 2
         x: 416
@@ -6171,7 +6171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_467
+      name: Minion_Demon2_5
       rect:
         serializedVersion: 2
         x: 432
@@ -6192,7 +6192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_468
+      name: Minion_Demon2_6
       rect:
         serializedVersion: 2
         x: 448
@@ -6213,7 +6213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_469
+      name: Minion_Demon2_7
       rect:
         serializedVersion: 2
         x: 464
@@ -6234,7 +6234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_470
+      name: Minion_Demon2_8
       rect:
         serializedVersion: 2
         x: 480
@@ -6255,7 +6255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_490
+      name: Minion_Fly_1
       rect:
         serializedVersion: 2
         x: 368
@@ -6276,7 +6276,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_491
+      name: Minion_Fly_2
       rect:
         serializedVersion: 2
         x: 384
@@ -6297,7 +6297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_492
+      name: Minion_Fly_3
       rect:
         serializedVersion: 2
         x: 400
@@ -6318,7 +6318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_493
+      name: Minion_Fly_4
       rect:
         serializedVersion: 2
         x: 416
@@ -6339,7 +6339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_494
+      name: Minion_Fly_5
       rect:
         serializedVersion: 2
         x: 432
@@ -6360,7 +6360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_495
+      name: Minion_Fly_6
       rect:
         serializedVersion: 2
         x: 448
@@ -6381,7 +6381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_496
+      name: Minion_Fly_7
       rect:
         serializedVersion: 2
         x: 464
@@ -6402,7 +6402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_497
+      name: Minion_Fly_8
       rect:
         serializedVersion: 2
         x: 480
@@ -6641,7 +6641,7 @@ TextureImporter:
         width: 32
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6665,107 +6665,103 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       0x72_DungeonTilesetII_v1.4_213: 1584021494
+      Minion_Imp_6: 1978235501
+      Minion_Fly_2: 109617818
       Misc_Skull: -1232250757
       0x72_DungeonTilesetII_v1.4_477: 1522891821
-      0x72_DungeonTilesetII_v1.4_178: -844567133
       Fountain_Red_1: 1542973549
       0x72_DungeonTilesetII_v1.4_359: -1065859821
       Chest_Treasure_1: 2074027167
       Boss_Demon_5: 1257410096
       0x72_DungeonTilesetII_v1.4_452: -963279970
       0x72_DungeonTilesetII_v1.4_287: 278106826
-      0x72_DungeonTilesetII_v1.4_133: -279447822
-      0x72_DungeonTilesetII_v1.4_266: -1049268236
+      Minion_Flesh_5: -2133953841
       Boss_Demon_3: 280047282
+      Minion_Element_Wind_2: -1186642742
       0x72_DungeonTilesetII_v1.4_42: 1468153740
-      0x72_DungeonTilesetII_v1.4_173: 465781646
       0x72_DungeonTilesetII_v1.4_314: -413692721
       0x72_DungeonTilesetII_v1.4_186: 1464092729
       0x72_DungeonTilesetII_v1.4_205: -983176869
-      0x72_DungeonTilesetII_v1.4_387: 2045617677
       0x72_DungeonTilesetII_v1.4_513: 727310842
       Button_Red_1: 1747928992
       0x72_DungeonTilesetII_v1.4_471: 360796252
       0x72_DungeonTilesetII_v1.4_478: -1935703828
       0x72_DungeonTilesetII_v1.4_237: -1994175022
       0x72_DungeonTilesetII_v1.4_381: -1855138205
-      0x72_DungeonTilesetII_v1.4_82: 575514796
       0x72_DungeonTilesetII_v1.4_262: -349713493
       0x72_DungeonTilesetII_v1.4_408: 2066489104
+      Minion_Flesh_4: -848508055
       0x72_DungeonTilesetII_v1.4_524: -708239406
-      0x72_DungeonTilesetII_v1.4_267: -1256382754
-      0x72_DungeonTilesetII_v1.4_463: 47424650
+      Minion_Orc2_1: -1049268236
+      Weapon_LongtSword_2: -1015170450
       0x72_DungeonTilesetII_v1.4_99: 1576865192
+      Minion_Skull_4: -1547624228
+      Weapon_Staff_1: 902105320
       0x72_DungeonTilesetII_v1.4_379: -1430360839
       0x72_DungeonTilesetII_v1.4_188: -1511357616
       Boss_Demon_7: 870757551
-      0x72_DungeonTilesetII_v1.4_358: -1492790644
-      0x72_DungeonTilesetII_v1.4_179: -1907765686
+      Minion_Orc2_5: 1149716660
       0x72_DungeonTilesetII_v1.4_295: 925615263
       0x72_DungeonTilesetII_v1.4_236: 2075774604
       0x72_DungeonTilesetII_v1.4_291: 391783400
       0x72_DungeonTilesetII_v1.4_316: 1435080607
+      Minion_Demon1_2: 1358476238
       0x72_DungeonTilesetII_v1.4_73: 616263023
       0x72_DungeonTilesetII_v1.4_433: 516358701
-      0x72_DungeonTilesetII_v1.4_226: -1186642742
       0x72_DungeonTilesetII_v1.4_120: 1938520410
-      0x72_DungeonTilesetII_v1.4_58: -702933842
       0x72_DungeonTilesetII_v1.4_145: 1883968910
       0x72_DungeonTilesetII_v1.4_185: -1477331500
       0x72_DungeonTilesetII_v1.4_454: 1517303242
       0x72_DungeonTilesetII_v1.4_117: 2006332720
       0x72_DungeonTilesetII_v1.4_215: 890004687
-      0x72_DungeonTilesetII_v1.4_224: 421698486
+      Minion_Orc1_7: -1347932468
       0x72_DungeonTilesetII_v1.4_71: 1709227230
       0x72_DungeonTilesetII_v1.4_233: 1453476169
       0x72_DungeonTilesetII_v1.4_475: 1461105102
       Boss_Demon_2: -1429009383
       0x72_DungeonTilesetII_v1.4_516: -2024405665
       0x72_DungeonTilesetII_v1.4_425: -824401920
-      0x72_DungeonTilesetII_v1.4_174: 1722310824
       0x72_DungeonTilesetII_v1.4_283: -792559623
       0x72_DungeonTilesetII_v1.4_281: -715812229
-      0x72_DungeonTilesetII_v1.4_420: 1950999838
-      0x72_DungeonTilesetII_v1.4_269: 541913999
       0x72_DungeonTilesetII_v1.4_114: -1246072465
-      0x72_DungeonTilesetII_v1.4_356: -1806821242
       0x72_DungeonTilesetII_v1.4_432: 576827411
-      0x72_DungeonTilesetII_v1.4_34: -1709002165
-      0x72_DungeonTilesetII_v1.4_509: 609014316
-      0x72_DungeonTilesetII_v1.4_56: -875210978
       Fountain_Red_2: 1368859149
+      0x72_DungeonTilesetII_v1.4_509: 609014316
+      Minion_Orc1_1: -473822298
+      Minion_Orc3_8: -1492790644
+      Minion_Element_Earth_4: 2001380199
       0x72_DungeonTilesetII_v1.4_361: -655835278
+      Minion_Element_Wind_3: -1791918675
       Chest_Empty_1: 734589717
-      0x72_DungeonTilesetII_v1.4_200: 1807352568
+      Minion_Demon1_8: 1266157149
       0x72_DungeonTilesetII_v1.4_147: 1622116887
-      0x72_DungeonTilesetII_v1.4_497: -407014625
-      0x72_DungeonTilesetII_v1.4_175: 100672616
-      0x72_DungeonTilesetII_v1.4_228: -807726909
+      Minion_Fly_1: -1408321653
+      Minion_Goblin_7: 1287215561
+      Minion_Orc1_8: 1721729602
       0x72_DungeonTilesetII_v1.4_47: -1908763554
       0x72_DungeonTilesetII_v1.4_319: 1719026205
-      0x72_DungeonTilesetII_v1.4_355: -327847010
-      0x72_DungeonTilesetII_v1.4_84: 1909109139
+      0x72_DungeonTilesetII_v1.4_518: -1038708496
+      Minion_Skull_3: 641912795
       Potion_Blue_1: -1691455396
       0x72_DungeonTilesetII_v1.4_240: 823587595
-      0x72_DungeonTilesetII_v1.4_418: 1832922884
-      Chest: -1972677652
-      0x72_DungeonTilesetII_v1.4_518: -1038708496
-      0x72_DungeonTilesetII_v1.4_388: -1257477895
-      0x72_DungeonTilesetII_v1.4_400: -1385398075
-      0x72_DungeonTilesetII_v1.4_2: -1681358541
       Coin_4: 482719779
+      Chest: -1972677652
+      Minion_Orc1_4: -2083822769
+      0x72_DungeonTilesetII_v1.4_2: -1681358541
+      Minion_Demon2_2: -525158053
       0x72_DungeonTilesetII_v1.4_70: 770820728
+      Minion_Orc3_2: 2086447193
       0x72_DungeonTilesetII_v1.4_171: 1927841220
       Crate: 1540708629
       0x72_DungeonTilesetII_v1.4_391: -359411701
       0x72_DungeonTilesetII_v1.4_293: -242673384
+      Boss_TreeTorll_8: -388392915
       0x72_DungeonTilesetII_v1.4_404: 2003947015
       0x72_DungeonTilesetII_v1.4_118: -1314134764
-      0x72_DungeonTilesetII_v1.4_153: 2110116401
-      0x72_DungeonTilesetII_v1.4_394: 801602724
+      Weapon_Arrow: -500011195
       Flag_Yellow: 1059831110
-      0x72_DungeonTilesetII_v1.4_23: -865824981
       0x72_DungeonTilesetII_v1.4_409: -1858195663
+      Minion_Soccer_2: -624619664
       0x72_DungeonTilesetII_v1.4_261: -611208340
       0x72_DungeonTilesetII_v1.4_484: 32483677
       Coin_2: 44550256
@@ -6773,113 +6769,109 @@ TextureImporter:
       Potion_Green_1: 45254499
       0x72_DungeonTilesetII_v1.4_210: 376853931
       0x72_DungeonTilesetII_v1.4_68: -1741028425
-      0x72_DungeonTilesetII_v1.4_53: -1356118580
+      Minion_Demon2_3: 1755286146
       0x72_DungeonTilesetII_v1.4_369: 852783239
       0x72_DungeonTilesetII_v1.4_122: 463096874
       0x72_DungeonTilesetII_v1.4_15: 1435080280
-      0x72_DungeonTilesetII_v1.4_310: 1697130961
-      0x72_DungeonTilesetII_v1.4_308: -2083822769
+      0x72_DungeonTilesetII_v1.4_367: 739221918
+      Minion_Element_Venom_2: -844567133
       Heart_1: -1810166391
       0x72_DungeonTilesetII_v1.4_212: -1621594954
       0x72_DungeonTilesetII_v1.4_211: -407236197
-      0x72_DungeonTilesetII_v1.4_54: 2130069418
-      0x72_DungeonTilesetII_v1.4_367: 739221918
-      0x72_DungeonTilesetII_v1.4_299: -1061388342
       0x72_DungeonTilesetII_v1.4_520: 557616869
+      0x72_DungeonTilesetII_v1.4_299: -1061388342
       0x72_DungeonTilesetII_v1.4_169: 1324646692
       Ground_1: 904703062
-      0x72_DungeonTilesetII_v1.4_30: -848508055
       0x72_DungeonTilesetII_v1.4_160: -792848051
+      Minion_Imp_3: 130323328
       Wall_3: 975998404
       Flag_Red: 1567826906
       0x72_DungeonTilesetII_v1.4_322: 1912611995
       Potion_Blue_2: 417640692
+      Weapon_Bow: -782545936
+      Minion_Demon1_3: -1612312711
       0x72_DungeonTilesetII_v1.4_324: 986589387
       0x72_DungeonTilesetII_v1.4_112: 172297278
       Wall_1: -1577767089
       0x72_DungeonTilesetII_v1.4_360: 1035281891
-      0x72_DungeonTilesetII_v1.4_57: -1442604692
-      0x72_DungeonTilesetII_v1.4_270: 1149716660
-      0x72_DungeonTilesetII_v1.4_481: -41923571
       0x72_DungeonTilesetII_v1.4_341: -536067872
+      0x72_DungeonTilesetII_v1.4_481: -41923571
       0x72_DungeonTilesetII_v1.4_139: -1245225949
-      0x72_DungeonTilesetII_v1.4_128: 550112052
       0x72_DungeonTilesetII_v1.4_255: -264316136
-      0x72_DungeonTilesetII_v1.4_321: 1633379725
-      0x72_DungeonTilesetII_v1.4_472: -221314387
       0x72_DungeonTilesetII_v1.4_393: 706465910
-      0x72_DungeonTilesetII_v1.4_304: -1124612981
+      0x72_DungeonTilesetII_v1.4_472: -221314387
       Gate_Top: -47894516
+      0x72_DungeonTilesetII_v1.4_321: 1633379725
+      0x72_DungeonTilesetII_v1.4_304: -1124612981
       0x72_DungeonTilesetII_v1.4_157: 1055001535
       0x72_DungeonTilesetII_v1.4_192: 1811826768
-      0x72_DungeonTilesetII_v1.4_421: 1266157149
       0x72_DungeonTilesetII_v1.4_487: 1691573239
       0x72_DungeonTilesetII_v1.4_437: -1945886973
-      0x72_DungeonTilesetII_v1.4_311: -1347932468
-      0x72_DungeonTilesetII_v1.4_81: -1526977810
+      Minion_Fly_6: 671507211
+      Trigger_2: -2136591198
       0x72_DungeonTilesetII_v1.4_238: -1026914237
       0x72_DungeonTilesetII_v1.4_284: -1881208427
-      Trigger_2: -2136591198
-      0x72_DungeonTilesetII_v1.4_60: 1287215561
-      0x72_DungeonTilesetII_v1.4_416: -1612312711
-      0x72_DungeonTilesetII_v1.4_88: -1351738399
+      Minion_Orc2_8: -1554214165
+      Weapon_GaintSword_2: -654755056
       0x72_DungeonTilesetII_v1.4_102: -1763519542
       0x72_DungeonTilesetII_v1.4_338: 988249213
       0x72_DungeonTilesetII_v1.4_150: -2050717548
       0x72_DungeonTilesetII_v1.4_248: 1432530576
+      Minion_Skull_8: 1777164660
       0x72_DungeonTilesetII_v1.4_21: 23765770
-      0x72_DungeonTilesetII_v1.4_193: -604125196
-      0x72_DungeonTilesetII_v1.4_182: -1537168218
-      Boss_Demon_4: 245189990
       0x72_DungeonTilesetII_v1.4_124: 2145458085
+      Minion_Skull_1: -407410591
+      0x72_DungeonTilesetII_v1.4_193: -604125196
+      Weapon_Hammer_1: 104825737
       Flag_Green: -347878092
+      Weapon_ShortSword_3: -1356118580
       0x72_DungeonTilesetII_v1.4_399: 236140572
       0x72_DungeonTilesetII_v1.4_75: -1550445404
       Ground_4: 1416674158
+      0x72_DungeonTilesetII_v1.4_182: -1537168218
       Potion_Orange_2: 2114319059
-      0x72_DungeonTilesetII_v1.4_402: -388392915
+      Boss_Demon_4: 245189990
       0x72_DungeonTilesetII_v1.4_422: 1772572545
       0x72_DungeonTilesetII_v1.4_101: 143033699
       0x72_DungeonTilesetII_v1.4_241: 1974701004
       0x72_DungeonTilesetII_v1.4_300: 77581613
       0x72_DungeonTilesetII_v1.4_499: 1302845113
       0x72_DungeonTilesetII_v1.4_76: 222798094
-      0x72_DungeonTilesetII_v1.4_272: 483830035
+      Minion_Orc2_3: -431752577
+      Minion_Demon1_4: -1524892992
+      Minion_Goblin_3: -875210978
+      Minion_Flesh_1: -1078505569
       0x72_DungeonTilesetII_v1.4_164: -411914701
-      0x72_DungeonTilesetII_v1.4_386: 1938358023
+      Minion_Goblin_6: 952393780
       0x72_DungeonTilesetII_v1.4_370: 449062658
       0x72_DungeonTilesetII_v1.4_16: 229856169
       0x72_DungeonTilesetII_v1.4_280: 1168421749
-      0x72_DungeonTilesetII_v1.4_470: 246511691
+      Minion_Element_Tree_1: -2093824392
       0x72_DungeonTilesetII_v1.4_208: -2013581
-      0x72_DungeonTilesetII_v1.4_180: -850356916
+      Minion_Fly_4: -2001772840
       0x72_DungeonTilesetII_v1.4_126: -1190016506
       0x72_DungeonTilesetII_v1.4_395: 1376761622
-      0x72_DungeonTilesetII_v1.4_244: 1671021172
+      0x72_DungeonTilesetII_v1.4_523: -1546416355
       0x72_DungeonTilesetII_v1.4_43: -2099225944
       Wall_2: 1577036995
-      0x72_DungeonTilesetII_v1.4_523: -1546416355
       Fountain_Blue_2: 985105771
       0x72_DungeonTilesetII_v1.4_77: -1995486025
       0x72_DungeonTilesetII_v1.4_444: 25760138
       0x72_DungeonTilesetII_v1.4_155: -77124310
-      Potion_Yellow_1: -1436914237
-      0x72_DungeonTilesetII_v1.4_59: 952393780
-      0x72_DungeonTilesetII_v1.4_346: -1792344542
-      0x72_DungeonTilesetII_v1.4_14: 12339357
-      0x72_DungeonTilesetII_v1.4_52: -1858175086
-      0x72_DungeonTilesetII_v1.4_495: 671507211
+      Boss_Demon_1: 1145231534
       Ground_5: -94476226
+      0x72_DungeonTilesetII_v1.4_346: -1792344542
+      Potion_Yellow_1: -1436914237
+      0x72_DungeonTilesetII_v1.4_14: 12339357
       0x72_DungeonTilesetII_v1.4_345: 2140917212
       Boss_OrcShaman_7: -705108406
-      0x72_DungeonTilesetII_v1.4_268: -431752577
       0x72_DungeonTilesetII_v1.4_514: 239642001
-      Boss_Demon_1: 1145231534
       0x72_DungeonTilesetII_v1.4_11: -2134840434
       Gate_1: 1497103760
       Boss_OrcShaman_6: 152784570
       0x72_DungeonTilesetII_v1.4_473: -8918118
-      0x72_DungeonTilesetII_v1.4_271: -930137277
+      Minion_Element_Wind_4: -807726909
+      Weapon_Dagger: -865824981
       0x72_DungeonTilesetII_v1.4_98: -202829091
       Wall_6: -1550698110
       0x72_DungeonTilesetII_v1.4_143: 77062649
@@ -6889,8 +6881,9 @@ TextureImporter:
       Trap_: 1878367458
       0x72_DungeonTilesetII_v1.4_3: 2080504711
       0x72_DungeonTilesetII_v1.4_334: 1348805840
+      Minion_Element_Earth_2: 1722310824
       0x72_DungeonTilesetII_v1.4_343: -2046212974
-      0x72_DungeonTilesetII_v1.4_390: -840578061
+      Minion_Orc2_4: 541913999
       0x72_DungeonTilesetII_v1.4_202: -1512797793
       0x72_DungeonTilesetII_v1.4_317: 2032143892
       0x72_DungeonTilesetII_v1.4_25: 1336303232
@@ -6898,39 +6891,36 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_172: 1377726129
       0x72_DungeonTilesetII_v1.4_103: 2007838868
       0x72_DungeonTilesetII_v1.4_196: 296298660
-      0x72_DungeonTilesetII_v1.4_199: -1015170450
       0x72_DungeonTilesetII_v1.4_434: -1262192766
       0x72_DungeonTilesetII_v1.4_373: 830433962
       Boss_OrcShaman_5: 674356107
-      0x72_DungeonTilesetII_v1.4_61: -145490926
+      Minion_Imp_4: 1909109139
       0x72_DungeonTilesetII_v1.4_446: 1997378506
-      0x72_DungeonTilesetII_v1.4_417: -1524892992
+      Minion_Goblin_1: 2130069418
+      Minion_Flesh_3: 2078824893
       0x72_DungeonTilesetII_v1.4_13: -1750027961
-      0x72_DungeonTilesetII_v1.4_354: 177676064
+      Minion_Orc3_6: -1806821242
       Boss_Demon_8: -905622965
-      0x72_DungeonTilesetII_v1.4_104: 104825737
-      0x72_DungeonTilesetII_v1.4_305: -473822298
-      0x72_DungeonTilesetII_v1.4_242: 1315347538
+      Minion_Flesh_7: 590432248
       0x72_DungeonTilesetII_v1.4_239: 1672111887
-      0x72_DungeonTilesetII_v1.4_419: -295842531
+      Weapon_Mace_1: 2079556458
       0x72_DungeonTilesetII_v1.4_365: -1795442843
       0x72_DungeonTilesetII_v1.4_80: 1528074469
       0x72_DungeonTilesetII_v1.4_371: -835120436
       0x72_DungeonTilesetII_v1.4_423: -14882642
+      Minion_Orc3_3: 2126814404
+      Minion_Skull_7: -279447822
       0x72_DungeonTilesetII_v1.4_183: 1421450865
-      0x72_DungeonTilesetII_v1.4_351: 194843098
       0x72_DungeonTilesetII_v1.4_517: -1580689369
-      0x72_DungeonTilesetII_v1.4_177: -1463852157
       0x72_DungeonTilesetII_v1.4_320: 1586372730
-      0x72_DungeonTilesetII_v1.4_296: -749611568
       0x72_DungeonTilesetII_v1.4_485: -208859669
-      0x72_DungeonTilesetII_v1.4_466: 1529341884
-      0x72_DungeonTilesetII_v1.4_398: -1119837184
+      0x72_DungeonTilesetII_v1.4_296: -749611568
+      Minion_Orc1_2: 1410732282
+      Weapon_Spear: -1977003313
       0x72_DungeonTilesetII_v1.4_165: -355355418
       0x72_DungeonTilesetII_v1.4_260: -477722260
       0x72_DungeonTilesetII_v1.4_41: 1034947835
       0x72_DungeonTilesetII_v1.4_116: -1694881702
-      0x72_DungeonTilesetII_v1.4_491: 109617818
       0x72_DungeonTilesetII_v1.4_298: -1329547362
       0x72_DungeonTilesetII_v1.4_302: 1411359765
       0x72_DungeonTilesetII_v1.4_479: 1502116322
@@ -6938,85 +6928,90 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_97: -796164561
       0x72_DungeonTilesetII_v1.4_194: -1341046563
       0x72_DungeonTilesetII_v1.4_197: -588110780
+      Minion_Demon2_7: 1661574629
       0x72_DungeonTilesetII_v1.4_125: -1688764988
       0x72_DungeonTilesetII_v1.4_344: 2056313427
-      0x72_DungeonTilesetII_v1.4_414: 1175994415
-      0x72_DungeonTilesetII_v1.4_27: -1078505569
+      Minion_Soccer_1: 915814392
       Coin_3: -977408851
+      Minion_Orc1_3: 1146828232
       0x72_DungeonTilesetII_v1.4_427: 70629371
       Boss_Demon_6: 878333974
       0x72_DungeonTilesetII_v1.4_411: -872331731
+      Weapon_ShortSword_4: 1315347538
       Fountain_Head: 1637199800
       Boss_OrcShaman_2: -496076094
       0x72_DungeonTilesetII_v1.4_258: 341732508
-      0x72_DungeonTilesetII_v1.4_357: 703328510
       0x72_DungeonTilesetII_v1.4_397: 831420123
       0x72_DungeonTilesetII_v1.4_201: 64019321
       0x72_DungeonTilesetII_v1.4_294: 1166016094
       0x72_DungeonTilesetII_v1.4_45: 1630778558
-      0x72_DungeonTilesetII_v1.4_106: 2079556458
+      0x72_DungeonTilesetII_v1.4_435: 1549164402
       0x72_DungeonTilesetII_v1.4_366: -1989077993
       0x72_DungeonTilesetII_v1.4_144: 944181775
-      0x72_DungeonTilesetII_v1.4_85: -224407446
       0x72_DungeonTilesetII_v1.4_218: -707982436
+      Minion_Soccer_4: 2045617677
       0x72_DungeonTilesetII_v1.4_292: 1807584871
       Trap_1: -796130590
-      0x72_DungeonTilesetII_v1.4_31: -2133953841
       0x72_DungeonTilesetII_v1.4_315: 1414178698
+      Boss_TreeTorll_2: -840578061
+      Weapon_ShortSword_1: -1031471526
+      Minion_Goblin_4: -1442604692
       Chest_Treasure_2: -646179081
-      0x72_DungeonTilesetII_v1.4_435: 1549164402
+      Minion_Orc3_5: -327847010
       0x72_DungeonTilesetII_v1.4_488: 2019886317
       0x72_DungeonTilesetII_v1.4_246: 1665537668
       Flag_Blue: 1949602808
+      Minion_Skull_6: -807923796
+      Weapon_Hammer_2: 148529984
       Boss_OrcShaman_4: 1711226996
-      0x72_DungeonTilesetII_v1.4_273: -1554214165
+      Minion_Flesh_6: 731060908
       0x72_DungeonTilesetII_v1.4_19: 1216032480
+      Minion_Skull_2: 550112052
+      Weapon_Axe_1: 2110116401
       0x72_DungeonTilesetII_v1.4_217: -608274518
-      0x72_DungeonTilesetII_v1.4_465: 1755286146
-      0x72_DungeonTilesetII_v1.4_312: 1721729602
+      Minion_Orc3_4: 177676064
+      Minion_Element_Tree_3: -1323422658
       0x72_DungeonTilesetII_v1.4_4: -6891251
-      0x72_DungeonTilesetII_v1.4_154: -897071565
       0x72_DungeonTilesetII_v1.4_430: -978317734
-      0x72_DungeonTilesetII_v1.4_131: 2123749100
+      0x72_DungeonTilesetII_v1.4_154: -897071565
       0x72_DungeonTilesetII_v1.4_161: 1347657012
-      0x72_DungeonTilesetII_v1.4_352: 2086447193
+      Boss_TreeTorll_4: 801602724
       0x72_DungeonTilesetII_v1.4_235: 30493964
       0x72_DungeonTilesetII_v1.4_301: 177032286
-      0x72_DungeonTilesetII_v1.4_83: 130323328
-      0x72_DungeonTilesetII_v1.4_107: -367238183
-      0x72_DungeonTilesetII_v1.4_254: -840389118
       0x72_DungeonTilesetII_v1.4_184: -2075756429
-      0x72_DungeonTilesetII_v1.4_492: 1672935797
+      0x72_DungeonTilesetII_v1.4_254: -840389118
       0x72_DungeonTilesetII_v1.4_460: -2014242373
-      0x72_DungeonTilesetII_v1.4_227: -1791918675
+      Minion_Orc2_2: -1256382754
+      Minion_Fly_8: -407014625
       0x72_DungeonTilesetII_v1.4_462: -1573504866
       Stair_2: 1474507264
       0x72_DungeonTilesetII_v1.4_50: -1172193263
       0x72_DungeonTilesetII_v1.4_216: -1604946882
+      Weapon_Mace_2: -367238183
       Fountain_Blue_1: -1615599392
       Button_Blue_1: -1502577683
       0x72_DungeonTilesetII_v1.4_20: 667372643
       0x72_DungeonTilesetII_v1.4_5: -184026236
-      0x72_DungeonTilesetII_v1.4_129: 641912795
       0x72_DungeonTilesetII_v1.4_505: 228054112
       0x72_DungeonTilesetII_v1.4_214: 1185306916
       Gate_LeftWall: 639892621
       Wall_5: 825811926
-      0x72_DungeonTilesetII_v1.4_222: 337916735
       0x72_DungeonTilesetII_v1.4_195: 1015061218
+      Minion_Element_Wind_1: 1540797659
       0x72_DungeonTilesetII_v1.4_142: 39026518
       0x72_DungeonTilesetII_v1.4_297: 391782422
       Ground_6: -701797016
       Trap_3: -1602972474
       0x72_DungeonTilesetII_v1.4_141: 1496031828
       0x72_DungeonTilesetII_v1.4_376: 1817154464
-      0x72_DungeonTilesetII_v1.4_28: -1389801228
       0x72_DungeonTilesetII_v1.4_458: 165984342
-      0x72_DungeonTilesetII_v1.4_176: 2001380199
+      Minion_Demon2_5: -1437247267
       0x72_DungeonTilesetII_v1.4_209: -274837103
       0x72_DungeonTilesetII_v1.4_331: 1256976894
+      Minion_Demon1_7: 1950999838
+      Minion_Element_Tree_4: 421698486
       Coin_1: -1930087062
-      0x72_DungeonTilesetII_v1.4_384: 915814392
+      Minion_Orc1_6: 1697130961
       0x72_DungeonTilesetII_v1.4_49: 1883700005
       0x72_DungeonTilesetII_v1.4_79: -1809243805
       Stair_1: -566294803
@@ -7029,23 +7024,23 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_476: 652670133
       Chest_Monster_2: 1317444889
       0x72_DungeonTilesetII_v1.4_515: 1525785726
-      0x72_DungeonTilesetII_v1.4_87: -1585045837
+      Minion_Demon2_8: 246511691
       0x72_DungeonTilesetII_v1.4_189: -721390565
+      Minion_Flesh_8: -1709002165
       Ground_3: -347830946
       0x72_DungeonTilesetII_v1.4_375: 1715141854
-      0x72_DungeonTilesetII_v1.4_496: -1948090879
+      Weapon_GaintSword_1: -723255826
       0x72_DungeonTilesetII_v1.4_78: -431606835
       0x72_DungeonTilesetII_v1.4_377: 1570450687
+      Ground_8: -524403738
       0x72_DungeonTilesetII_v1.4_115: -1665094575
       Pillar_2: 1528183269
-      Ground_8: -524403738
-      0x72_DungeonTilesetII_v1.4_221: -2093824392
+      Minion_Demon1_5: 1832922884
       0x72_DungeonTilesetII_v1.4_303: 726233373
       0x72_DungeonTilesetII_v1.4_72: 2140365061
       0x72_DungeonTilesetII_v1.4_403: 664040848
       Boss_OrcShaman_3: -1926275306
       0x72_DungeonTilesetII_v1.4_170: 507533382
-      0x72_DungeonTilesetII_v1.4_385: -624619664
       Chest_Empty_2: 837659699
       0x72_DungeonTilesetII_v1.4_247: 2029650953
       0x72_DungeonTilesetII_v1.4_480: 1739275714
@@ -7053,77 +7048,77 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_229: -914765548
       0x72_DungeonTilesetII_v1.4_389: -2023847546
       Ground_2: 1371007676
+      Minion_Element_Venom_3: -1907765686
       0x72_DungeonTilesetII_v1.4_6: -375860342
+      Weapon_ShortSword_2: -1858175086
       0x72_DungeonTilesetII_v1.4_503: 1092401644
-      0x72_DungeonTilesetII_v1.4_130: -1547624228
+      Minion_Element_Earth_1: 465781646
+      Boss_TreeTorll_5: 86861927
+      Minion_Element_Earth_3: 100672616
+      Minion_Goblin_5: -702933842
       Potion_Yellow_2: -1959527628
       0x72_DungeonTilesetII_v1.4_163: -1291559935
+      Minion_Demon2_4: 1529341884
       0x72_DungeonTilesetII_v1.4_445: 1948538860
-      0x72_DungeonTilesetII_v1.4_290: -782545936
+      Minion_Demon1_1: 1175994415
       0x72_DungeonTilesetII_v1.4_219: 1886049243
-      0x72_DungeonTilesetII_v1.4_415: 1358476238
+      Minion_Orc2_7: 483830035
+      Minion_Soccer_3: 1938358023
       0x72_DungeonTilesetII_v1.4_286: 2131891431
-      0x72_DungeonTilesetII_v1.4_51: -1031471526
-      0x72_DungeonTilesetII_v1.4_86: 1978235501
+      Weapon_LongtSword_1: 1807352568
       Potion_Orange_1: -1281652611
-      0x72_DungeonTilesetII_v1.4_127: -407410591
-      0x72_DungeonTilesetII_v1.4_289: -500011195
-      0x72_DungeonTilesetII_v1.4_243: -654755056
+      Boss_TreeTorll_1: -1257477895
+      Minion_Demon2_1: 47424650
       0x72_DungeonTilesetII_v1.4_424: 1403976269
+      Minion_Imp_2: 575514796
       0x72_DungeonTilesetII_v1.4_428: 1706466707
       0x72_DungeonTilesetII_v1.4_443: 856933107
-      0x72_DungeonTilesetII_v1.4_467: -1437247267
-      0x72_DungeonTilesetII_v1.4_223: -1323422658
+      Boss_TreeTorll_3: -1337033608
       0x72_DungeonTilesetII_v1.4_456: -746942339
       0x72_DungeonTilesetII_v1.4_474: -1629480081
       0x72_DungeonTilesetII_v1.4_140: 1256736075
-      0x72_DungeonTilesetII_v1.4_353: 2126814404
-      0x72_DungeonTilesetII_v1.4_392: -1337033608
+      Minion_Skull_5: 2123749100
       0x72_DungeonTilesetII_v1.4_285: -32620223
       Trigger_1: -154138380
-      0x72_DungeonTilesetII_v1.4_29: 2078824893
+      Minion_Goblin_2: 1619998823
       Ground_7: 985296733
       Chest_Monster_1: 1733608446
-      0x72_DungeonTilesetII_v1.4_306: 1410732282
-      0x72_DungeonTilesetII_v1.4_288: -1977003313
       0x72_DungeonTilesetII_v1.4_166: -631272126
       0x72_DungeonTilesetII_v1.4_198: -1778117293
       0x72_DungeonTilesetII_v1.4_96: 515182727
-      0x72_DungeonTilesetII_v1.4_134: 1777164660
+      Weapon_Staff_2: 1671021172
       0x72_DungeonTilesetII_v1.4_256: -1436541169
       0x72_DungeonTilesetII_v1.4_48: 194620201
       0x72_DungeonTilesetII_v1.4_486: 1778567807
       0x72_DungeonTilesetII_v1.4_168: 1775917431
       0x72_DungeonTilesetII_v1.4_405: 1963841491
       Heart_2: -1970552368
-      Gate_2: -1806458987
       Ground_Hole: 2069119398
+      Minion_Element_Tree_2: 337916735
       0x72_DungeonTilesetII_v1.4_265: 1225971195
       0x72_DungeonTilesetII_v1.4_121: -1037926106
+      Gate_2: -1806458987
+      Minion_Fly_3: 1672935797
+      Minion_Imp_5: -224407446
       0x72_DungeonTilesetII_v1.4_519: -1029175539
+      Minion_Element_Venom_1: -1463852157
       0x72_DungeonTilesetII_v1.4_203: -675389498
-      0x72_DungeonTilesetII_v1.4_469: 1661574629
-      0x72_DungeonTilesetII_v1.4_33: 590432248
       0x72_DungeonTilesetII_v1.4_368: 1630234268
       0x72_DungeonTilesetII_v1.4_167: 981470394
       0x72_DungeonTilesetII_v1.4_326: -1647143716
-      0x72_DungeonTilesetII_v1.4_225: 1540797659
       0x72_DungeonTilesetII_v1.4_380: 524627350
       Wall_4: 1068132293
       0x72_DungeonTilesetII_v1.4_342: -587319359
       0x72_DungeonTilesetII_v1.4_44: 1805806770
-      0x72_DungeonTilesetII_v1.4_490: -1408321653
       0x72_DungeonTilesetII_v1.4_100: -1878846072
-      0x72_DungeonTilesetII_v1.4_307: 1146828232
+      Minion_Orc1_5: -381079983
       0x72_DungeonTilesetII_v1.4_313: 1011313767
       0x72_DungeonTilesetII_v1.4_339: -1124163263
       0x72_DungeonTilesetII_v1.4_340: 1650508339
-      0x72_DungeonTilesetII_v1.4_309: -381079983
       0x72_DungeonTilesetII_v1.4_74: 222515702
-      0x72_DungeonTilesetII_v1.4_396: 86861927
       0x72_DungeonTilesetII_v1.4_448: 163392470
       0x72_DungeonTilesetII_v1.4_431: -378643197
-      0x72_DungeonTilesetII_v1.4_494: 1203719422
+      Minion_Imp_7: -1585045837
       0x72_DungeonTilesetII_v1.4_24: 1266368895
       0x72_DungeonTilesetII_v1.4_22: -1048647374
       Button_Blue_2: -1434375069
@@ -7131,11 +7126,12 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_26: -649723673
       Heart_3: 474570783
       Button_Red_2: -1226685760
+      Minion_Orc3_7: 703328510
       Fountain_Red_3: 354919940
+      Minion_Element_Venom_4: -850356916
       0x72_DungeonTilesetII_v1.4_156: 2139939609
       0x72_DungeonTilesetII_v1.4_522: -1446998907
-      0x72_DungeonTilesetII_v1.4_468: -1060915862
-      0x72_DungeonTilesetII_v1.4_132: -807923796
+      Minion_Demon2_6: -1060915862
       Potion_Green_2: -1394461196
       0x72_DungeonTilesetII_v1.4_95: 257211500
       0x72_DungeonTilesetII_v1.4_282: -787035036
@@ -7143,8 +7139,8 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_220: 801870312
       0x72_DungeonTilesetII_v1.4_372: 1012516501
       Fountain_Head_2: -1055166768
-      0x72_DungeonTilesetII_v1.4_245: 902105320
       0x72_DungeonTilesetII_v1.4_401: 1570109744
+      Boss_TreeTorll_6: -1119837184
       0x72_DungeonTilesetII_v1.4_204: 66409887
       0x72_DungeonTilesetII_v1.4_259: 1803785986
       0x72_DungeonTilesetII_v1.4_442: 1550518579
@@ -7156,20 +7152,22 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_482: 739409001
       0x72_DungeonTilesetII_v1.4_18: -1321589876
       0x72_DungeonTilesetII_v1.4_426: -1690375666
+      Minion_Orc3_1: 194843098
       0x72_DungeonTilesetII_v1.4_149: -1799298004
+      Minion_Imp_8: -1351738399
+      Minion_Goblin_8: -145490926
       0x72_DungeonTilesetII_v1.4_191: 1810930634
       0x72_DungeonTilesetII_v1.4_264: -218386158
       0x72_DungeonTilesetII_v1.4_318: 1225051889
+      Minion_Fly_5: 1203719422
       0x72_DungeonTilesetII_v1.4_489: 2008328633
       0x72_DungeonTilesetII_v1.4_511: -1274962777
       0x72_DungeonTilesetII_v1.4_230: 1670409979
-      0x72_DungeonTilesetII_v1.4_55: 1619998823
-      0x72_DungeonTilesetII_v1.4_105: 148529984
-      0x72_DungeonTilesetII_v1.4_152: -723255826
       0x72_DungeonTilesetII_v1.4_234: -659992015
       Pillar_1: 2145954946
       0x72_DungeonTilesetII_v1.4_257: 1721543598
       0x72_DungeonTilesetII_v1.4_501: -588569114
+      Minion_Flesh_2: -1389801228
       0x72_DungeonTilesetII_v1.4_231: -224424577
       0x72_DungeonTilesetII_v1.4_181: 195066671
       0x72_DungeonTilesetII_v1.4_7: -1837925934
@@ -7178,16 +7176,18 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_232: -983573752
       0x72_DungeonTilesetII_v1.4_17: 72245230
       0x72_DungeonTilesetII_v1.4_436: 162761095
+      Minion_Demon1_6: -295842531
+      Minion_Imp_1: -1526977810
       Gate_RightWall: -768250479
+      Minion_Fly_7: -1948090879
       0x72_DungeonTilesetII_v1.4_263: -172832580
-      0x72_DungeonTilesetII_v1.4_493: -2001772840
+      Minion_Orc2_6: -930137277
       Boss_OrcShaman_1: -1256589696
+      Boss_TreeTorll_7: -1385398075
       0x72_DungeonTilesetII_v1.4_12: 739675956
       0x72_DungeonTilesetII_v1.4_450: -212501260
-      0x72_DungeonTilesetII_v1.4_464: -525158053
       0x72_DungeonTilesetII_v1.4_337: 14934643
       Trap_2: 1995378596
-      0x72_DungeonTilesetII_v1.4_32: 731060908
       0x72_DungeonTilesetII_v1.4_325: -2075426104
   spritePackingTag: 
   pSDRemoveMatte: 0
