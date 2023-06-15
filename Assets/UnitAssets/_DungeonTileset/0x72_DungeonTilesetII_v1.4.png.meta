@@ -1047,7 +1047,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_68
+      name: Player_ElfMale_1
       rect:
         serializedVersion: 2
         x: 128
@@ -1068,7 +1068,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_69
+      name: Player_ElfMale_2
       rect:
         serializedVersion: 2
         x: 144
@@ -1089,7 +1089,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_70
+      name: Player_ElfMale_3
       rect:
         serializedVersion: 2
         x: 160
@@ -1110,7 +1110,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_71
+      name: Player_ElfMale_4
       rect:
         serializedVersion: 2
         x: 176
@@ -1131,7 +1131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_72
+      name: Player_ElfMale_5
       rect:
         serializedVersion: 2
         x: 192
@@ -1152,7 +1152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_73
+      name: Player_ElfMale_6
       rect:
         serializedVersion: 2
         x: 208
@@ -1173,7 +1173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_74
+      name: Player_ElfMale_7
       rect:
         serializedVersion: 2
         x: 224
@@ -1194,7 +1194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_75
+      name: Player_ElfMale_8
       rect:
         serializedVersion: 2
         x: 240
@@ -1215,7 +1215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_76
+      name: Player_ElfMale_9
       rect:
         serializedVersion: 2
         x: 256
@@ -2328,7 +2328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_160
+      name: Player_Kinght_1
       rect:
         serializedVersion: 2
         x: 128
@@ -2349,7 +2349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_161
+      name: Player_Kinght_2
       rect:
         serializedVersion: 2
         x: 144
@@ -2370,7 +2370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_162
+      name: Player_Kinght_3
       rect:
         serializedVersion: 2
         x: 160
@@ -2391,7 +2391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_163
+      name: Player_Kinght_4
       rect:
         serializedVersion: 2
         x: 176
@@ -2412,7 +2412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_164
+      name: Player_Kinght_5
       rect:
         serializedVersion: 2
         x: 192
@@ -2433,7 +2433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_165
+      name: Player_Kinght_6
       rect:
         serializedVersion: 2
         x: 208
@@ -2454,7 +2454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_166
+      name: Player_Kinght_7
       rect:
         serializedVersion: 2
         x: 224
@@ -2475,7 +2475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_167
+      name: Player_Kinght_8
       rect:
         serializedVersion: 2
         x: 240
@@ -2496,7 +2496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_168
+      name: Player_Kinght_9
       rect:
         serializedVersion: 2
         x: 256
@@ -3693,7 +3693,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_254
+      name: Player_Mage_1
       rect:
         serializedVersion: 2
         x: 128
@@ -3714,7 +3714,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_255
+      name: Player_Mage_2
       rect:
         serializedVersion: 2
         x: 144
@@ -3735,7 +3735,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_256
+      name: Player_Mage_3
       rect:
         serializedVersion: 2
         x: 160
@@ -3756,7 +3756,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_257
+      name: Player_Mage_4
       rect:
         serializedVersion: 2
         x: 176
@@ -3777,7 +3777,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_258
+      name: Player_Mage_5
       rect:
         serializedVersion: 2
         x: 192
@@ -3798,7 +3798,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_259
+      name: Player_Mage_6
       rect:
         serializedVersion: 2
         x: 208
@@ -3819,7 +3819,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_260
+      name: Player_Mage_7
       rect:
         serializedVersion: 2
         x: 224
@@ -3840,7 +3840,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_261
+      name: Player_Mage_8
       rect:
         serializedVersion: 2
         x: 240
@@ -3861,7 +3861,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_262
+      name: Player_Mage_9
       rect:
         serializedVersion: 2
         x: 256
@@ -6670,6 +6670,7 @@ TextureImporter:
       Misc_Skull: -1232250757
       0x72_DungeonTilesetII_v1.4_477: 1522891821
       Fountain_Red_1: 1542973549
+      Player_ElfMale_4: 1709227230
       0x72_DungeonTilesetII_v1.4_359: -1065859821
       Chest_Treasure_1: 2074027167
       Boss_Demon_5: 1257410096
@@ -6688,10 +6689,10 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_478: -1935703828
       0x72_DungeonTilesetII_v1.4_237: -1994175022
       0x72_DungeonTilesetII_v1.4_381: -1855138205
-      0x72_DungeonTilesetII_v1.4_262: -349713493
       0x72_DungeonTilesetII_v1.4_408: 2066489104
       Minion_Flesh_4: -848508055
       0x72_DungeonTilesetII_v1.4_524: -708239406
+      Player_Mage_6: 1803785986
       Minion_Orc2_1: -1049268236
       Weapon_LongtSword_2: -1015170450
       0x72_DungeonTilesetII_v1.4_99: 1576865192
@@ -6706,7 +6707,6 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_291: 391783400
       0x72_DungeonTilesetII_v1.4_316: 1435080607
       Minion_Demon1_2: 1358476238
-      0x72_DungeonTilesetII_v1.4_73: 616263023
       0x72_DungeonTilesetII_v1.4_433: 516358701
       0x72_DungeonTilesetII_v1.4_120: 1938520410
       0x72_DungeonTilesetII_v1.4_145: 1883968910
@@ -6715,11 +6715,11 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_117: 2006332720
       0x72_DungeonTilesetII_v1.4_215: 890004687
       Minion_Orc1_7: -1347932468
-      0x72_DungeonTilesetII_v1.4_71: 1709227230
+      Boss_Demon_2: -1429009383
       0x72_DungeonTilesetII_v1.4_233: 1453476169
       0x72_DungeonTilesetII_v1.4_475: 1461105102
-      Boss_Demon_2: -1429009383
       0x72_DungeonTilesetII_v1.4_516: -2024405665
+      Player_ElfMale_1: -1741028425
       0x72_DungeonTilesetII_v1.4_425: -824401920
       0x72_DungeonTilesetII_v1.4_283: -792559623
       0x72_DungeonTilesetII_v1.4_281: -715812229
@@ -6729,6 +6729,7 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_509: 609014316
       Minion_Orc1_1: -473822298
       Minion_Orc3_8: -1492790644
+      Player_Mage_5: 341732508
       Minion_Element_Earth_4: 2001380199
       0x72_DungeonTilesetII_v1.4_361: -655835278
       Minion_Element_Wind_3: -1791918675
@@ -6749,7 +6750,6 @@ TextureImporter:
       Minion_Orc1_4: -2083822769
       0x72_DungeonTilesetII_v1.4_2: -1681358541
       Minion_Demon2_2: -525158053
-      0x72_DungeonTilesetII_v1.4_70: 770820728
       Minion_Orc3_2: 2086447193
       0x72_DungeonTilesetII_v1.4_171: 1927841220
       Crate: 1540708629
@@ -6758,17 +6758,17 @@ TextureImporter:
       Boss_TreeTorll_8: -388392915
       0x72_DungeonTilesetII_v1.4_404: 2003947015
       0x72_DungeonTilesetII_v1.4_118: -1314134764
+      Player_Kinght_6: -355355418
       Weapon_Arrow: -500011195
       Flag_Yellow: 1059831110
+      Player_Kinght_8: 981470394
       0x72_DungeonTilesetII_v1.4_409: -1858195663
       Minion_Soccer_2: -624619664
-      0x72_DungeonTilesetII_v1.4_261: -611208340
       0x72_DungeonTilesetII_v1.4_484: 32483677
       Coin_2: 44550256
       0x72_DungeonTilesetII_v1.4_123: -1791585911
       Potion_Green_1: 45254499
       0x72_DungeonTilesetII_v1.4_210: 376853931
-      0x72_DungeonTilesetII_v1.4_68: -1741028425
       Minion_Demon2_3: 1755286146
       0x72_DungeonTilesetII_v1.4_369: 852783239
       0x72_DungeonTilesetII_v1.4_122: 463096874
@@ -6782,26 +6782,25 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_299: -1061388342
       0x72_DungeonTilesetII_v1.4_169: 1324646692
       Ground_1: 904703062
-      0x72_DungeonTilesetII_v1.4_160: -792848051
+      Player_ElfMale_2: 219383500
       Minion_Imp_3: 130323328
       Wall_3: 975998404
       Flag_Red: 1567826906
       0x72_DungeonTilesetII_v1.4_322: 1912611995
       Potion_Blue_2: 417640692
       Weapon_Bow: -782545936
-      Minion_Demon1_3: -1612312711
       0x72_DungeonTilesetII_v1.4_324: 986589387
+      Minion_Demon1_3: -1612312711
       0x72_DungeonTilesetII_v1.4_112: 172297278
       Wall_1: -1577767089
       0x72_DungeonTilesetII_v1.4_360: 1035281891
       0x72_DungeonTilesetII_v1.4_341: -536067872
       0x72_DungeonTilesetII_v1.4_481: -41923571
       0x72_DungeonTilesetII_v1.4_139: -1245225949
-      0x72_DungeonTilesetII_v1.4_255: -264316136
       0x72_DungeonTilesetII_v1.4_393: 706465910
+      0x72_DungeonTilesetII_v1.4_321: 1633379725
       0x72_DungeonTilesetII_v1.4_472: -221314387
       Gate_Top: -47894516
-      0x72_DungeonTilesetII_v1.4_321: 1633379725
       0x72_DungeonTilesetII_v1.4_304: -1124612981
       0x72_DungeonTilesetII_v1.4_157: 1055001535
       0x72_DungeonTilesetII_v1.4_192: 1811826768
@@ -6810,6 +6809,7 @@ TextureImporter:
       Minion_Fly_6: 671507211
       Trigger_2: -2136591198
       0x72_DungeonTilesetII_v1.4_238: -1026914237
+      Player_Kinght_3: -1592057549
       0x72_DungeonTilesetII_v1.4_284: -1881208427
       Minion_Orc2_8: -1554214165
       Weapon_GaintSword_2: -654755056
@@ -6823,25 +6823,24 @@ TextureImporter:
       Minion_Skull_1: -407410591
       0x72_DungeonTilesetII_v1.4_193: -604125196
       Weapon_Hammer_1: 104825737
-      Flag_Green: -347878092
-      Weapon_ShortSword_3: -1356118580
-      0x72_DungeonTilesetII_v1.4_399: 236140572
-      0x72_DungeonTilesetII_v1.4_75: -1550445404
-      Ground_4: 1416674158
       0x72_DungeonTilesetII_v1.4_182: -1537168218
-      Potion_Orange_2: 2114319059
+      0x72_DungeonTilesetII_v1.4_399: 236140572
+      Ground_4: 1416674158
+      Flag_Green: -347878092
       Boss_Demon_4: 245189990
+      Potion_Orange_2: 2114319059
+      Weapon_ShortSword_3: -1356118580
+      Player_Mage_3: -1436541169
+      Player_Mage_4: 1721543598
       0x72_DungeonTilesetII_v1.4_422: 1772572545
       0x72_DungeonTilesetII_v1.4_101: 143033699
       0x72_DungeonTilesetII_v1.4_241: 1974701004
       0x72_DungeonTilesetII_v1.4_300: 77581613
       0x72_DungeonTilesetII_v1.4_499: 1302845113
-      0x72_DungeonTilesetII_v1.4_76: 222798094
       Minion_Orc2_3: -431752577
       Minion_Demon1_4: -1524892992
       Minion_Goblin_3: -875210978
       Minion_Flesh_1: -1078505569
-      0x72_DungeonTilesetII_v1.4_164: -411914701
       Minion_Goblin_6: 952393780
       0x72_DungeonTilesetII_v1.4_370: 449062658
       0x72_DungeonTilesetII_v1.4_16: 229856169
@@ -6854,6 +6853,7 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_523: -1546416355
       0x72_DungeonTilesetII_v1.4_43: -2099225944
       Wall_2: 1577036995
+      Player_Mage_7: -477722260
       Fountain_Blue_2: 985105771
       0x72_DungeonTilesetII_v1.4_77: -1995486025
       0x72_DungeonTilesetII_v1.4_444: 25760138
@@ -6863,6 +6863,8 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_346: -1792344542
       Potion_Yellow_1: -1436914237
       0x72_DungeonTilesetII_v1.4_14: 12339357
+      Player_Kinght_9: 1775917431
+      Player_ElfMale_3: 770820728
       0x72_DungeonTilesetII_v1.4_345: 2140917212
       Boss_OrcShaman_7: -705108406
       0x72_DungeonTilesetII_v1.4_514: 239642001
@@ -6892,6 +6894,7 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_103: 2007838868
       0x72_DungeonTilesetII_v1.4_196: 296298660
       0x72_DungeonTilesetII_v1.4_434: -1262192766
+      Player_Mage_9: -349713493
       0x72_DungeonTilesetII_v1.4_373: 830433962
       Boss_OrcShaman_5: 674356107
       Minion_Imp_4: 1909109139
@@ -6917,17 +6920,14 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_296: -749611568
       Minion_Orc1_2: 1410732282
       Weapon_Spear: -1977003313
-      0x72_DungeonTilesetII_v1.4_165: -355355418
-      0x72_DungeonTilesetII_v1.4_260: -477722260
       0x72_DungeonTilesetII_v1.4_41: 1034947835
       0x72_DungeonTilesetII_v1.4_116: -1694881702
       0x72_DungeonTilesetII_v1.4_298: -1329547362
       0x72_DungeonTilesetII_v1.4_302: 1411359765
       0x72_DungeonTilesetII_v1.4_479: 1502116322
-      0x72_DungeonTilesetII_v1.4_69: 219383500
+      0x72_DungeonTilesetII_v1.4_197: -588110780
       0x72_DungeonTilesetII_v1.4_97: -796164561
       0x72_DungeonTilesetII_v1.4_194: -1341046563
-      0x72_DungeonTilesetII_v1.4_197: -588110780
       Minion_Demon2_7: 1661574629
       0x72_DungeonTilesetII_v1.4_125: -1688764988
       0x72_DungeonTilesetII_v1.4_344: 2056313427
@@ -6940,7 +6940,6 @@ TextureImporter:
       Weapon_ShortSword_4: 1315347538
       Fountain_Head: 1637199800
       Boss_OrcShaman_2: -496076094
-      0x72_DungeonTilesetII_v1.4_258: 341732508
       0x72_DungeonTilesetII_v1.4_397: 831420123
       0x72_DungeonTilesetII_v1.4_201: 64019321
       0x72_DungeonTilesetII_v1.4_294: 1166016094
@@ -6966,20 +6965,21 @@ TextureImporter:
       Boss_OrcShaman_4: 1711226996
       Minion_Flesh_6: 731060908
       0x72_DungeonTilesetII_v1.4_19: 1216032480
-      Minion_Skull_2: 550112052
+      Minion_Element_Tree_3: -1323422658
       Weapon_Axe_1: 2110116401
       0x72_DungeonTilesetII_v1.4_217: -608274518
       Minion_Orc3_4: 177676064
-      Minion_Element_Tree_3: -1323422658
-      0x72_DungeonTilesetII_v1.4_4: -6891251
+      Player_ElfMale_8: -1550445404
+      Minion_Skull_2: 550112052
       0x72_DungeonTilesetII_v1.4_430: -978317734
+      0x72_DungeonTilesetII_v1.4_4: -6891251
+      Player_Kinght_5: -411914701
       0x72_DungeonTilesetII_v1.4_154: -897071565
-      0x72_DungeonTilesetII_v1.4_161: 1347657012
+      Player_ElfMale_5: 2140365061
       Boss_TreeTorll_4: 801602724
       0x72_DungeonTilesetII_v1.4_235: 30493964
       0x72_DungeonTilesetII_v1.4_301: 177032286
       0x72_DungeonTilesetII_v1.4_184: -2075756429
-      0x72_DungeonTilesetII_v1.4_254: -840389118
       0x72_DungeonTilesetII_v1.4_460: -2014242373
       Minion_Orc2_2: -1256382754
       Minion_Fly_8: -407014625
@@ -6989,13 +6989,14 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_216: -1604946882
       Weapon_Mace_2: -367238183
       Fountain_Blue_1: -1615599392
+      Player_ElfMale_9: 222798094
       Button_Blue_1: -1502577683
       0x72_DungeonTilesetII_v1.4_20: 667372643
       0x72_DungeonTilesetII_v1.4_5: -184026236
-      0x72_DungeonTilesetII_v1.4_505: 228054112
       0x72_DungeonTilesetII_v1.4_214: 1185306916
-      Gate_LeftWall: 639892621
+      0x72_DungeonTilesetII_v1.4_505: 228054112
       Wall_5: 825811926
+      Gate_LeftWall: 639892621
       0x72_DungeonTilesetII_v1.4_195: 1015061218
       Minion_Element_Wind_1: 1540797659
       0x72_DungeonTilesetII_v1.4_142: 39026518
@@ -7008,10 +7009,10 @@ TextureImporter:
       Minion_Demon2_5: -1437247267
       0x72_DungeonTilesetII_v1.4_209: -274837103
       0x72_DungeonTilesetII_v1.4_331: 1256976894
-      Minion_Demon1_7: 1950999838
       Minion_Element_Tree_4: 421698486
       Coin_1: -1930087062
       Minion_Orc1_6: 1697130961
+      Minion_Demon1_7: 1950999838
       0x72_DungeonTilesetII_v1.4_49: 1883700005
       0x72_DungeonTilesetII_v1.4_79: -1809243805
       Stair_1: -566294803
@@ -7037,7 +7038,6 @@ TextureImporter:
       Pillar_2: 1528183269
       Minion_Demon1_5: 1832922884
       0x72_DungeonTilesetII_v1.4_303: 726233373
-      0x72_DungeonTilesetII_v1.4_72: 2140365061
       0x72_DungeonTilesetII_v1.4_403: 664040848
       Boss_OrcShaman_3: -1926275306
       0x72_DungeonTilesetII_v1.4_170: 507533382
@@ -7054,10 +7054,10 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_503: 1092401644
       Minion_Element_Earth_1: 465781646
       Boss_TreeTorll_5: 86861927
+      Player_Kinght_7: -631272126
       Minion_Element_Earth_3: 100672616
       Minion_Goblin_5: -702933842
       Potion_Yellow_2: -1959527628
-      0x72_DungeonTilesetII_v1.4_163: -1291559935
       Minion_Demon2_4: 1529341884
       0x72_DungeonTilesetII_v1.4_445: 1948538860
       Minion_Demon1_1: 1175994415
@@ -7068,6 +7068,7 @@ TextureImporter:
       Weapon_LongtSword_1: 1807352568
       Potion_Orange_1: -1281652611
       Boss_TreeTorll_1: -1257477895
+      Player_Mage_1: -840389118
       Minion_Demon2_1: 47424650
       0x72_DungeonTilesetII_v1.4_424: 1403976269
       Minion_Imp_2: 575514796
@@ -7075,36 +7076,36 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_443: 856933107
       Boss_TreeTorll_3: -1337033608
       0x72_DungeonTilesetII_v1.4_456: -746942339
+      Player_Kinght_2: 1347657012
       0x72_DungeonTilesetII_v1.4_474: -1629480081
       0x72_DungeonTilesetII_v1.4_140: 1256736075
       Minion_Skull_5: 2123749100
       0x72_DungeonTilesetII_v1.4_285: -32620223
       Trigger_1: -154138380
       Minion_Goblin_2: 1619998823
+      Player_Kinght_1: -792848051
       Ground_7: 985296733
+      Player_ElfMale_6: 616263023
       Chest_Monster_1: 1733608446
-      0x72_DungeonTilesetII_v1.4_166: -631272126
+      Player_Kinght_4: -1291559935
       0x72_DungeonTilesetII_v1.4_198: -1778117293
       0x72_DungeonTilesetII_v1.4_96: 515182727
       Weapon_Staff_2: 1671021172
-      0x72_DungeonTilesetII_v1.4_256: -1436541169
+      Heart_2: -1970552368
       0x72_DungeonTilesetII_v1.4_48: 194620201
       0x72_DungeonTilesetII_v1.4_486: 1778567807
-      0x72_DungeonTilesetII_v1.4_168: 1775917431
+      Minion_Imp_5: -224407446
       0x72_DungeonTilesetII_v1.4_405: 1963841491
-      Heart_2: -1970552368
       Ground_Hole: 2069119398
       Minion_Element_Tree_2: 337916735
       0x72_DungeonTilesetII_v1.4_265: 1225971195
       0x72_DungeonTilesetII_v1.4_121: -1037926106
       Gate_2: -1806458987
       Minion_Fly_3: 1672935797
-      Minion_Imp_5: -224407446
       0x72_DungeonTilesetII_v1.4_519: -1029175539
       Minion_Element_Venom_1: -1463852157
       0x72_DungeonTilesetII_v1.4_203: -675389498
       0x72_DungeonTilesetII_v1.4_368: 1630234268
-      0x72_DungeonTilesetII_v1.4_167: 981470394
       0x72_DungeonTilesetII_v1.4_326: -1647143716
       0x72_DungeonTilesetII_v1.4_380: 524627350
       Wall_4: 1068132293
@@ -7115,14 +7116,12 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_313: 1011313767
       0x72_DungeonTilesetII_v1.4_339: -1124163263
       0x72_DungeonTilesetII_v1.4_340: 1650508339
-      0x72_DungeonTilesetII_v1.4_74: 222515702
       0x72_DungeonTilesetII_v1.4_448: 163392470
       0x72_DungeonTilesetII_v1.4_431: -378643197
       Minion_Imp_7: -1585045837
       0x72_DungeonTilesetII_v1.4_24: 1266368895
       0x72_DungeonTilesetII_v1.4_22: -1048647374
       Button_Blue_2: -1434375069
-      0x72_DungeonTilesetII_v1.4_162: -1592057549
       0x72_DungeonTilesetII_v1.4_26: -649723673
       Heart_3: 474570783
       Button_Red_2: -1226685760
@@ -7142,7 +7141,6 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_401: 1570109744
       Boss_TreeTorll_6: -1119837184
       0x72_DungeonTilesetII_v1.4_204: 66409887
-      0x72_DungeonTilesetII_v1.4_259: 1803785986
       0x72_DungeonTilesetII_v1.4_442: 1550518579
       0x72_DungeonTilesetII_v1.4_151: -1513859567
       0x72_DungeonTilesetII_v1.4_190: -1544937716
@@ -7165,7 +7163,6 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_230: 1670409979
       0x72_DungeonTilesetII_v1.4_234: -659992015
       Pillar_1: 2145954946
-      0x72_DungeonTilesetII_v1.4_257: 1721543598
       0x72_DungeonTilesetII_v1.4_501: -588569114
       Minion_Flesh_2: -1389801228
       0x72_DungeonTilesetII_v1.4_231: -224424577
@@ -7188,7 +7185,10 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_450: -212501260
       0x72_DungeonTilesetII_v1.4_337: 14934643
       Trap_2: 1995378596
+      Player_ElfMale_7: 222515702
+      Player_Mage_2: -264316136
       0x72_DungeonTilesetII_v1.4_325: -2075426104
+      Player_Mage_8: -611208340
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
