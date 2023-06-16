@@ -1,12 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
-using UnityEngine;
 using UnityEditor.Animations;
-using Unity.VisualScripting;
-using UnityEngine.Playables;
-using System;
-using System.Runtime.CompilerServices;
+using UnityEngine;
 
 
 /********************************************************************
@@ -38,26 +35,6 @@ public class SpriteSheetManager : MonoBehaviour
   }
 
   /// <summary>
-  /// 建立BlendTree 移動
-  /// </summary>
-  private void CreateBlendTree_Move(SpriteSheetItem item, float threshold = 0.1f)
-  {
-    string parameterName = "MovementSpeed";
-    BlendTree blendTree = new BlendTree()
-    {
-      name = $"BlendTree_{parameterName}",
-      blendType = BlendTreeType.Simple1D,
-      useAutomaticThresholds = false,
-      blendParameter = parameterName,
-    };
-    blendTree.AddChild(item.actionAnimationDict["Idle"], 0);
-    blendTree.AddChild(item.actionAnimationDict["Walk"], threshold);
-    item.animatorController.AddMotion(blendTree);
-    item.animatorController.AddParameter(parameterName, AnimatorControllerParameterType.Float);
-  }
-
-
-  /// <summary>
   /// 擷取SpriteSheet上的所有包含Header的Sprite
   /// </summary>
   private List<Sprite> GetResourceSprites()
@@ -85,6 +62,27 @@ public class SpriteSheetManager : MonoBehaviour
   }
 
   /// <summary>
+  /// 建立BlendTree 移動
+  /// </summary>
+  private void CreateBlendTree_Move(SpriteSheetItem item, float threshold = 0.1f)
+  {
+    string parameterName = "MovementSpeed";
+    BlendTree blendTree = new BlendTree()
+    {
+      name = $"BlendTree_{parameterName}",
+      blendType = BlendTreeType.Simple1D,
+      useAutomaticThresholds = false,
+      blendParameter = parameterName,
+    };
+    blendTree.AddChild(item.actionAnimationDict["Idle"], 0);
+    blendTree.AddChild(item.actionAnimationDict["Walk"], threshold);
+    item.animatorController.AddMotion(blendTree);
+    item.animatorController.AddParameter(parameterName, AnimatorControllerParameterType.Float);
+  }
+
+
+
+  /// <summary>
   /// 依照{角色名}_{動作}_{序號}進行歸類成Dictionary
   /// </summary>
   private Dictionary<string, SpriteSheetItem> ClassficationSprites()
@@ -102,6 +100,7 @@ public class SpriteSheetManager : MonoBehaviour
         result[character] = new SpriteSheetItem()
         {
           characterName = character
+          , iconSprite = sprite
         };
       }
 
@@ -199,6 +198,8 @@ public class SpriteSheetManager : MonoBehaviour
     /// 角色名
     /// </summary>
     public string characterName;
+
+    public Sprite iconSprite;
 
     /// <summary>
     /// 各項動作的Sprites
