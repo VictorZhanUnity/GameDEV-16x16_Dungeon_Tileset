@@ -1,23 +1,23 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
+using VictorUtilties.Managers;
 using static SpriteSheet_Adapter;
 
 [Serializable]
 public class AnimationCreator
 {
-  [SerializeField] private string _folderUrl = "SpriteSheetAnimation";
-  [SerializeField] private List<ActionFramerateItem> _actionFrameratesList;
+  [SerializeField] private string _exportFolderUrl = "SpriteSheetAnimation";
+  [SerializeField] private List<ActionFramerateItem> _actionTypeFrameratesList;
 
   /// <summary>
   /// 建立各項動作的AnimationClip檔案
   /// </summary>
   public void CreateAnimationFiles(SpriteSheetItem item)
   {
-    string folderUrl = CheckFolderExist($"_/{_folderUrl}/{item.characterName}");
+    string folderUrl = FileManager.CheckFolderExist($"Assets/_/{_exportFolderUrl}/{item.characterName}");
 
     // 创建AnimatorController
     item.animatorController = AnimatorController.CreateAnimatorControllerAtPath($"{folderUrl}/{item.characterName}.controller");
@@ -32,6 +32,8 @@ public class AnimationCreator
       Debug.Log($">>> --- 建立AnimationClip: {item.characterName} - {action}");
     }
   }
+
+  #region [>>> Private Functions]
   private AnimationClip CreateAnimationClip(string filePath, List<Sprite> sprites, int frameRate = 10)
   {
     // 創建AnimationClip
@@ -66,29 +68,9 @@ public class AnimationCreator
     return animationClip;
   }
 
-  /// <summary>
-  /// 建立資料夾
-  /// </summary>
-  private string CheckFolderExist(string url)
-  {
-    string folderPath = $"Assets/{url}/"; // 資料夾的路徑
-
-    //刪除舊檔案，在UnityEditor裡需要按Ctrl+R重新整理
-    if (Directory.Exists(folderPath))
-    {
-      Directory.Delete(folderPath, true);
-      Debug.LogWarning($"XXX 刪除舊資料: {folderPath}");
-    }
-
-    Directory.CreateDirectory(folderPath);
-    Debug.Log($"+++ 創建資料夾: {folderPath}");
-
-    return folderPath;
-  }
-
   private int GetFrameRate(string action)
   {
-    foreach (ActionFramerateItem item in _actionFrameratesList)
+    foreach (ActionFramerateItem item in _actionTypeFrameratesList)
     {
       if (item.actionName == action) return item.frameRate;
     }
@@ -104,10 +86,11 @@ public class AnimationCreator
     clipSettings.loopTime = loopTime;
     AnimationUtility.SetAnimationClipSettings(clip, clipSettings);
   }
+  #endregion
 
   public void AutoSetActionFrameRate()
   {
-    _actionFrameratesList = new List<ActionFramerateItem>()
+    _actionTypeFrameratesList = new List<ActionFramerateItem>()
     {
       new ActionFramerateItem(ActionType.Idle.ToString(), 5),
       new ActionFramerateItem(ActionType.Walk.ToString(), 10),
@@ -115,7 +98,7 @@ public class AnimationCreator
   }
 
   [Serializable]
-  public class ActionFramerateItem
+  private class ActionFramerateItem
   {
     public string actionName;
     public int frameRate;

@@ -859,17 +859,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc704bf0029e03408f15a0f0c736710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteAutoGetter:
-    _spriteSheetFile: {fileID: 12339357, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
-    _resourceFoldeName: SpriteSheet
-    _targetHeader: sp_
+  _createFileHandler:
+    spriteAutoGetter:
+      _spriteSheetFile: {fileID: 12339357, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+      _resourceFoldeName: SpriteSheet
+      _targetHeader: sp_
+    blendTreeCreator:
+      _parameter:
+        name_Movement: MovementSpeed
+    soCreater:
+      _exportFolderName:
+        characterSO: CharacterSO
   _animationCreator:
-    _folderUrl: SpriteSheetAnimation
-    _actionFrameratesList:
+    _exportFolderUrl: SpriteSheetAnimation
+    _actionTypeFrameratesList:
     - actionName: Idle
       frameRate: 5
     - actionName: Walk
       frameRate: 10
+  _characterDataSetting:
+    list:
+    - characterName: 
+      healthPoint: 7072
+      baseAttack: 780
+      baseAttackInterval: 0
+      baseMoveSpeed: 37
+      sprite: {fileID: 0}
+      animatorController: {fileID: 0}
 --- !u!1 &176859773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,6 +1605,53 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &360468212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360468213}
+  - component: {fileID: 360468214}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &360468213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360468212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 791257775}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &360468214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360468212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0ce31110d58274eb13aca631104aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptableObjectCreater:
+    _exportFolderName:
+      characterSO: CharacterSO
 --- !u!1 &361141677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,7 +2862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &791257775
 Transform:
   m_ObjectHideFlags: 0
@@ -2808,10 +2871,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791257774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3569627, y: 0.7815316, z: -0.01673912}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 360468213}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
