@@ -826,7 +826,7 @@ GameObject:
   - component: {fileID: 152576047}
   - component: {fileID: 152576048}
   m_Layer: 0
-  m_Name: SpriteSheetManager
+  m_Name: SpriteSheet_Adopter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -859,10 +859,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc704bf0029e03408f15a0f0c736710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourceFoldeName: SpriteSheet
-  spriteSheet: {fileID: 12339357, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
-  spriteHeader: sp_
-  keyWord: BossDemon
+  _spriteAutoGetter:
+    _spriteSheetFile: {fileID: 12339357, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+    _resourceFoldeName: SpriteSheet
+    _targetHeader: sp_
+  _animationCreator:
+    _folderUrl: SpriteSheetAnimation
+    _actionFrameratesList:
+    - actionName: Idle
+      frameRate: 5
+    - actionName: Walk
+      frameRate: 10
 --- !u!1 &176859773
 GameObject:
   m_ObjectHideFlags: 0
@@ -6694,7 +6701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5307022592316446819
 Transform:
   m_ObjectHideFlags: 0
@@ -6752,7 +6759,7 @@ Animator:
   m_GameObject: {fileID: 6179482139100024370}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d807553e5ff30964faba66668fbebfdd, type: 2}
+  m_Controller: {fileID: 9100000, guid: d6b7cb334794e614889e75b28e31187b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
