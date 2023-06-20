@@ -37,7 +37,7 @@ public class ScriptableObjectCreater : SingletonBase<ScriptableObjectCreater>
     T so = ScriptableObject.CreateInstance<T>();
 
     // 儲存 ScriptableObject 為檔案
-    string path = $"Assets/_/ScriptableObject/{folderName}";
+    string path = $"Assets/_/SpriteSheet/SO/{folderName}";
     FileManager.CheckFolderExist(path, false);
     AssetDatabase.CreateAsset(so, $"{path}/{fileName}.asset");
     AssetDatabase.SaveAssets();

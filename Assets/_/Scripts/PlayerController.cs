@@ -1,75 +1,54 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEditor;
 using UnityEngine;
+using static PlayerController;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-  private float movement_speed_orignal;
-  [Header("Character attributes:")]
-  public float movement_base_speed = 3.0f;
+  public CharacterStatus status;
 
-  [Space]
-  [Header("Character statistics:")]
-  public Vector2 movementDirection;
-  public float movementSpeed;
-
-  [Space]
-  [Header("Reference:")]
-  public Rigidbody2D rb;
-  public Animator animator;
-  public Transform spriteTrans;
-
-  private void Awake()
+  [Serializable]
+  public class CharacterStatus
   {
-    movement_speed_orignal = movement_base_speed;
-    Debug.Log($"Speed:{animator.speed}");
-  }
+    public CharacterSO characterSO;
 
-  private void Update()
-  {
-    ProcessInput();
-    Move();
-    Animate();
+    public string characterName => characterSO.characterName;
+    public float maxHealthPoint => characterSO.healthPoint;
+    public float baseAttack => characterSO.baseAttack;
+    public float baseAttackInterval => characterSO.baseAttackInterval;
+    public float baseMoveSpeed => characterSO.baseMoveSpeed;
 
-    SprintInput();
-  }
-
-  private void ProcessInput()
-  {
-    movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-    movementSpeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
-    movementDirection.Normalize();
-  }
-
-  private void SprintInput()
-  {
-    float currentSpeed = movement_base_speed;
-
-    if (Input.GetKey(KeyCode.LeftShift) && movementSpeed > 0)
-    {
-      movement_base_speed = movement_speed_orignal * 1.5f;
-      animator.speed = 1.5f;
-    }
-    else
-    {
-      movement_base_speed = movement_speed_orignal;
-      animator.speed = 1;
-    }
-  }
-
-  private void Move()
-  {
-    rb.velocity = movementDirection * movementSpeed * movement_base_speed;
-  }
-
-  private void Animate()
-  {
-    animator.SetFloat("MovementSpeed", movementSpeed);
-    float directionX = Input.GetAxis("Horizontal");
-    if (directionX != 0)
-    {
-      spriteTrans.localScale = new Vector2(directionX > 0 ? 1 : -1, 1);
-    }
+    private float _currentHealthPoint = 0;
+    public float currentHealthPoint => _currentHealthPoint;
   }
 }
+
+#if UNITY_EDITOR
+[CustomEditor(typeof(PlayerController))]
+public class Editor_PlayerController : Editor
+{
+  private bool _switchStatus = true;
+
+  public override void OnInspectorGUI()
+  {
+    DrawDefaultInspector();
+    PlayerController playerController = target as PlayerController;
+
+    CharacterStatus status = playerController.status;
+    if (status.characterSO == null) return;
+    _switchStatus = EditorGUILayout.BeginFoldoutHeaderGroup(_switchStatus, ">>> Status");
+    if (_switchStatus)
+    {
+      EditorGUILayout.LabelField($"CharacterName: {status.characterName}");
+      EditorGUILayout.BeginHorizontal();
+      GUILayoutOption[] options = { GUILayout.Width(200f) };
+
+      EditorGUILayout.LabelField($"HP: {status.currentHealthPoint} / {status.maxHealthPoint}", options);
+      EditorGUILayout.LabelField($"BaseAttack: {status.baseAttack}", options);
+      EditorGUILayout.EndHorizontal();
+    }
+    EditorGUILayout.EndFoldoutHeaderGroup();
+  }
+}
+#endif

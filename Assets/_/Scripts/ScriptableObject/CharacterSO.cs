@@ -6,6 +6,7 @@ using UnityEngine;
 public class CharacterSO : ScriptableObject
 {
   public string characterName;
+  [SerializeField]
   [Range(1, 9999)] public float healthPoint;
   [Range(1, 999)] public float baseAttack;
   [Range(1, 9)] public float baseAttackInterval;

@@ -9,7 +9,7 @@ using static SpriteSheet_Adapter;
 [Serializable]
 public class AnimationCreator
 {
-  [SerializeField] private string _exportFolderUrl = "SpriteSheetAnimation";
+  [SerializeField] private string _exportFolderUrl = "Animation";
   [SerializeField] private List<ActionFramerateItem> _actionTypeFrameratesList;
 
   /// <summary>
@@ -17,8 +17,8 @@ public class AnimationCreator
   /// </summary>
   public void CreateAnimationFiles(SpriteSheetItem item)
   {
-    string folderUrl = FileManager.CheckFolderExist($"Assets/_/{_exportFolderUrl}/{item.characterName}");
-
+    string folderUrl = FileManager.CheckFolderExist($"Assets/_/SpriteSheet/{_exportFolderUrl}/{item.characterName}");
+    Debug.Log($"folderUrl:{folderUrl}");
     // 创建AnimatorController
     item.animatorController = AnimatorController.CreateAnimatorControllerAtPath($"{folderUrl}/{item.characterName}.controller");
 
