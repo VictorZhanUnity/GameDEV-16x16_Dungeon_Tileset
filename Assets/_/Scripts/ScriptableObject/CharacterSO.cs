@@ -8,7 +8,7 @@ public class CharacterSO : ScriptableObject
   public string characterName;
   [SerializeField]
   [Range(1, 9999)] public float healthPoint;
-  [Range(1, 999)] public float baseAttack;
+  [Range(1, 999)] public float baseAttackDamage;
   [Range(1, 9)] public float baseAttackInterval;
   [Range(1, 99)] public float baseMoveSpeed;
 
@@ -19,7 +19,7 @@ public class CharacterSO : ScriptableObject
   {
     characterName = data.characterName;
     healthPoint = data.healthPoint;
-    baseAttack = data.baseAttack;
+    baseAttackDamage = data.baseAttack;
     baseAttackInterval = data.baseAttackInterval;
     baseMoveSpeed = data.baseMoveSpeed;
     sprite = data.sprite;
@@ -37,6 +37,16 @@ public class CharacterSO : ScriptableObject
 
     [HideInInspector] public Sprite sprite;
     [HideInInspector] public AnimatorController animatorController;
+
+    public CharacterSO_Data() { }
+    public CharacterSO_Data(string characterName, float healthPoint, float baseAttack, float baseAttackInterval, float baseMoveSpeed)
+    {
+      this.characterName = characterName;
+      this.healthPoint = healthPoint;
+      this.baseAttack = baseAttack;
+      this.baseAttackInterval = baseAttackInterval;
+      this.baseMoveSpeed = baseMoveSpeed;
+    }
   }
 }
 

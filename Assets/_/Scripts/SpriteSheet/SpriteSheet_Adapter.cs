@@ -38,12 +38,7 @@ public class SpriteSheet_Adapter : MonoBehaviour
   /// </summary>
   private void CreateCharacterSO(SpriteSheetItem item)
   {
-    CharacterSO_Data characterData = new CharacterSO_Data()
-    {
-      characterName = item.characterName,
-      sprite = item.iconSprite,
-      animatorController = item.animatorController,
-    };
+    CharacterSO_Data characterData = CharacterDataSetting.GetCharacterStatus(item);
     ScriptableObjectCreater.Create_CharacterSO(characterData);
   }
   #endregion
@@ -51,9 +46,6 @@ public class SpriteSheet_Adapter : MonoBehaviour
   #region [>>> ContextMenu]
   [ContextMenu("--- AutoSetActionFrameRate")]
   public void AutoSetActionFrameRate() => _animationCreator.AutoSetActionFrameRate();
-
-  [ContextMenu("--- AutoSetCharacterDatas")]
-  public void AutoSetCharacterDatas() => _characterDataSetting.AutoSetCharacterDatas();
   #endregion
 
   public class SpriteSheetItem

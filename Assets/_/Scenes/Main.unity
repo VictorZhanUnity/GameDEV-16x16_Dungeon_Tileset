@@ -831,7 +831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &152576047
 Transform:
   m_ObjectHideFlags: 0
@@ -877,15 +877,6 @@ MonoBehaviour:
       frameRate: 5
     - actionName: Walk
       frameRate: 10
-  _characterDataSetting:
-    list:
-    - characterName: 
-      healthPoint: 7072
-      baseAttack: 780
-      baseAttackInterval: 0
-      baseMoveSpeed: 37
-      sprite: {fileID: 0}
-      animatorController: {fileID: 0}
 --- !u!1 &176859773
 GameObject:
   m_ObjectHideFlags: 0
@@ -4924,7 +4915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1540155486
 Transform:
   m_ObjectHideFlags: 0
@@ -4973,8 +4964,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92bf39c92364d3f49818c000e9a0689f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  status:
-    characterSO: {fileID: 11400000, guid: a24b917dcabb86d4ebee27998cebd4e1, type: 2}
+  _status:
+    characterSO: {fileID: 0}
+  _rb: {fileID: 0}
+  _animator: {fileID: 0}
+  _spriteTrans: {fileID: 0}
 --- !u!1 &1563861944
 GameObject:
   m_ObjectHideFlags: 0
@@ -6981,8 +6975,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92bf39c92364d3f49818c000e9a0689f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  status:
+  _status:
     characterSO: {fileID: 0}
+  _rb: {fileID: 5307022592316446749}
+  _animator: {fileID: 6179482139100024371}
+  _spriteTrans: {fileID: 6179482139100024373}
 --- !u!50 &5307022592316446749
 Rigidbody2D:
   serializedVersion: 4

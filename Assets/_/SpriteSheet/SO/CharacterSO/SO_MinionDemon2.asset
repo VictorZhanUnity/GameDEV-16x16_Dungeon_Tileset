@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: 
   healthPoint: 0
-  baseAttack: 0
+  baseAttackDamage: 0
   baseAttackInterval: 0
   baseMoveSpeed: 0
   sprite: {fileID: 0}
