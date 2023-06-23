@@ -2,58 +2,107 @@ using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using VictorUtilties;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+  #region [>>> Variables]
   [SerializeField] private CharacterStatus _status;
+  [SerializeField] private Comps _comps;
   public CharacterStatus status => _status;
-  [SerializeField] private Rigidbody2D _rb;
-  [SerializeField] private Animator _animator;
-  [SerializeField] private Transform _spriteTrans;
-
-
   private Vector2 _movementDirection;
   private float _movementSpeed;
+  #endregion
 
-  private void FixedUpdate()
+
+  public void CollectPotion(PotionSO potion)
   {
-    Move();
-    Animate();
+    Debug.Log($"CollectPotion: {potion.potionType}, {potion.power}");
+  }
+  public void CollectWeapon(GameObject weapon)
+  {
+    Debug.Log($"CollectWeapon:{weapon.name}");
   }
 
-  private void Move(bool isSprintable = true)
+
+  #region [>>> Unity Functions]
+  private void FixedUpdate()
+  {
+    if (_status.characterSO != null)
+    {
+      Move(_comps.rb);
+      Animate(_comps.spriteRenderer, _comps.animator);
+    }
+  }
+  private void OnValidate()
+  {
+    if (_status.characterSO != null)
+    {
+      gameObject.name = _status.characterSO.name;
+      Utility.EditorDelayCall(() =>
+      {
+        _comps.animator.runtimeAnimatorController = _status.characterSO.animatorController;
+        _comps.spriteRenderer.sprite = _status.characterSO.sprite;
+      });
+    }
+  }
+
+  [ContextMenu("- GetComps")]
+  private void GetComps() => _comps.GetComponents(transform);
+  #endregion
+
+  #region [>>> Custom Functions]
+  /// <summary>
+  /// 角色移動
+  /// </summary>
+  private void Move(Rigidbody2D rb, bool isSprintable = true)
   {
     _movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
     _movementSpeed = Mathf.Clamp(_movementDirection.magnitude, 0.0f, 1.0f) * _status.currentMoveSpeed;
     if (isSprintable)
     {
       float multiple = 1;
-      if (Input.GetKey(KeyCode.LeftShift)) multiple = 1.5f;
-      _movementSpeed = _movementSpeed * multiple;
+      if (Input.GetKey(KeyCode.LeftShift)) multiple = 2f;
+      _movementSpeed *= multiple;
+      _comps.animator.speed = multiple;
     }
+
     _movementDirection.Normalize();
-    _rb.velocity = _movementDirection * _movementSpeed;
+
+    rb.velocity = _movementDirection * _movementSpeed;
   }
 
-  private void Animate()
+  /// <summary>
+  /// 處理動畫
+  /// </summary>
+  private void Animate(SpriteRenderer spriteRenderer, Animator animator)
   {
-    _animator.SetFloat("MovementSpeed", _movementSpeed);
     float directionX = Input.GetAxis("Horizontal");
     if (directionX != 0)
     {
-      _spriteTrans.localScale = new Vector2(directionX > 0 ? 1 : -1, 1);
+      spriteRenderer.transform.localScale = new Vector2(directionX > 0 ? 1 : -1, 1);
     }
+    animator.SetFloat("MovementSpeed", _movementSpeed);
   }
-
-
-  [ContextMenu("- GetParameters")]
-  private void Reset()
-  {
-    _rb = GetComponent<Rigidbody2D>();
-  }
-
+  #endregion
 }
+
+[Serializable]
+public class Comps
+{
+  public Rigidbody2D rb;
+  public SpriteRenderer spriteRenderer;
+  public Animator animator;
+
+  public void GetComponents(Transform main)
+  {
+    rb = main.GetComponent<Rigidbody2D>();
+    spriteRenderer = main.transform.Find("SpriteRenderer").GetComponent<SpriteRenderer>();
+    animator = spriteRenderer.GetComponent<Animator>();
+  }
+}
+
 
 [Serializable]
 public class CharacterStatus

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2658d49c5115b4d9a0880840f9581c, type: 3}
   m_Name: SO_Elf
   m_EditorClassIdentifier: 
-  characterName: 
-  healthPoint: 0
-  baseAttackDamage: 0
-  baseAttackInterval: 0
-  baseMoveSpeed: 0
-  sprite: {fileID: 0}
-  animatorController: {fileID: 0}
+  characterName: Elf
+  healthPoint: 13.896109
+  baseAttackDamage: 1.2644402
+  baseAttackInterval: 1.0031723
+  baseMoveSpeed: 1.0043156
+  sprite: {fileID: -1741028425, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+  animatorController: {fileID: 9100000, guid: ae018363ea18ccb4fbf896d3af8a16cc, type: 2}

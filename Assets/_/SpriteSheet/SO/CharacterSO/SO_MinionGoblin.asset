@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2658d49c5115b4d9a0880840f9581c, type: 3}
   m_Name: SO_MinionGoblin
   m_EditorClassIdentifier: 
-  characterName: 
-  healthPoint: 0
-  baseAttackDamage: 0
-  baseAttackInterval: 0
-  baseMoveSpeed: 0
-  sprite: {fileID: 0}
-  animatorController: {fileID: 0}
+  characterName: MinionGoblin
+  healthPoint: 13.880632
+  baseAttackDamage: 1.2574139
+  baseAttackInterval: 1.102345
+  baseMoveSpeed: 1.0766509
+  sprite: {fileID: 2130069418, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+  animatorController: {fileID: 9100000, guid: 8187d297b665a6341b02a95694a08b54, type: 2}

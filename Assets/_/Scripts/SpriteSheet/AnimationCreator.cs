@@ -21,7 +21,7 @@ public class AnimationCreator
     Debug.Log($"folderUrl:{folderUrl}");
     // 创建AnimatorController
     item.animatorController = AnimatorController.CreateAnimatorControllerAtPath($"{folderUrl}/{item.characterName}.controller");
-
+    
     string filePath;
     int frameRate;
     foreach (string action in item.actionSpriteDict.Keys)
@@ -65,6 +65,7 @@ public class AnimationCreator
     // 儲存AnimationClip
     AssetDatabase.CreateAsset(animationClip, filePath + ".anim");
     AssetDatabase.SaveAssets();
+    EditorUtility.SetDirty(animationClip);
     return animationClip;
   }
 

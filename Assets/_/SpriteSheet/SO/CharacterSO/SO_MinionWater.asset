@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2658d49c5115b4d9a0880840f9581c, type: 3}
   m_Name: SO_MinionWater
   m_EditorClassIdentifier: 
-  characterName: 
-  healthPoint: 0
-  baseAttackDamage: 0
-  baseAttackInterval: 0
-  baseMoveSpeed: 0
-  sprite: {fileID: 0}
-  animatorController: {fileID: 0}
+  characterName: MinionWater
+  healthPoint: 13.541462
+  baseAttackDamage: 1.0384489
+  baseAttackInterval: 1.040117
+  baseMoveSpeed: 1.0545301
+  sprite: {fileID: 1540797659, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+  animatorController: {fileID: 9100000, guid: 1398815f9e7291f458c56540078a3aa0, type: 2}

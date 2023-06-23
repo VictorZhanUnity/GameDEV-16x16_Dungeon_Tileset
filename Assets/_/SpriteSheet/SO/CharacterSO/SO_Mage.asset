@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2658d49c5115b4d9a0880840f9581c, type: 3}
   m_Name: SO_Mage
   m_EditorClassIdentifier: 
-  characterName: 
-  healthPoint: 0
-  baseAttackDamage: 0
-  baseAttackInterval: 0
-  baseMoveSpeed: 0
-  sprite: {fileID: 0}
-  animatorController: {fileID: 0}
+  characterName: Mage
+  healthPoint: 11.420641
+  baseAttackDamage: 1.0633394
+  baseAttackInterval: 1.0270517
+  baseMoveSpeed: 1.093658
+  sprite: {fileID: -840389118, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+  animatorController: {fileID: 9100000, guid: ec988633b0494f942b995d88892504f2, type: 2}

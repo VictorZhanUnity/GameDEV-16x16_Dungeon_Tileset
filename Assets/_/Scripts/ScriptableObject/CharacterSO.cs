@@ -1,12 +1,12 @@
 using System;
 using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.Scripting;
 
-[CreateAssetMenu(fileName = "New CharacterSO", menuName = "+ New/ScripteableObject/Character")]
+[CreateAssetMenu(fileName = "New CharacterSO", menuName = "+ New/ScripteableObject/Character"), Serializable, Preserve]
 public class CharacterSO : ScriptableObject
 {
   public string characterName;
-  [SerializeField]
   [Range(1, 9999)] public float healthPoint;
   [Range(1, 999)] public float baseAttackDamage;
   [Range(1, 9)] public float baseAttackInterval;

@@ -4596,7 +4596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion_Orange_2
+      name: Item_Potion_Orange_2
       rect:
         serializedVersion: 2
         x: 288
@@ -4617,7 +4617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion_Blue_2
+      name: Item_Potion_Blue_2
       rect:
         serializedVersion: 2
         x: 304
@@ -4638,7 +4638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion_Green_2
+      name: Item_Potion_Green_2
       rect:
         serializedVersion: 2
         x: 320
@@ -4659,7 +4659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion_Yellow_2
+      name: Item_Potion_Yellow_2
       rect:
         serializedVersion: 2
         x: 336
@@ -4953,7 +4953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion_Orange_1
+      name: Item_Potion_Orange_1
       rect:
         serializedVersion: 2
         x: 288
@@ -4974,7 +4974,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion_Blue_1
+      name: Item_Potion_Blue_1
       rect:
         serializedVersion: 2
         x: 304
@@ -4995,7 +4995,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion_Green_1
+      name: Item_Potion_Green_1
       rect:
         serializedVersion: 2
         x: 320
@@ -5016,7 +5016,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion_Yellow_1
+      name: Item_Potion_Yellow_1
       rect:
         serializedVersion: 2
         x: 336
@@ -5205,7 +5205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_1
+      name: UI_Heart_1
       rect:
         serializedVersion: 2
         x: 288
@@ -5226,7 +5226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_2
+      name: UI_Heart_2
       rect:
         serializedVersion: 2
         x: 304
@@ -5247,7 +5247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart_3
+      name: UI_Heart_3
       rect:
         serializedVersion: 2
         x: 320
@@ -5268,7 +5268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_1
+      name: Item_Coin_1
       rect:
         serializedVersion: 2
         x: 288
@@ -5289,7 +5289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_3
+      name: Item_Coin_3
       rect:
         serializedVersion: 2
         x: 304
@@ -5926,8 +5926,8 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5947,8 +5947,8 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5968,8 +5968,8 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5989,8 +5989,8 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6010,8 +6010,8 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6031,8 +6031,8 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6052,8 +6052,8 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6073,8 +6073,8 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6549,7 +6549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_2
+      name: Item_Coin_2
       rect:
         serializedVersion: 2
         x: 296
@@ -6570,7 +6570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_4
+      name: Item_Coin_4
       rect:
         serializedVersion: 2
         x: 312
@@ -6633,6 +6633,7 @@ TextureImporter:
       sp_MinionSkull_Walk_4: 1777164660
       sp_Lizard_Walk_3: 2056313427
       sp_MinionDemon2_Idle_2: -525158053
+      Item_Potion_Orange_1: -1281652611
       sp_BossDemon_Walk_5: 1257410096
       sp_MinionDemon1_Walk_1: 1832922884
       0x72_DungeonTilesetII_v1.4_42: 1468153740
@@ -6685,6 +6686,7 @@ TextureImporter:
       sp_Fairly_Walk_4: -407014625
       0x72_DungeonTilesetII_v1.4_281: -715812229
       0x72_DungeonTilesetII_v1.4_114: -1246072465
+      Item_Potion_Blue_1: -1691455396
       0x72_DungeonTilesetII_v1.4_432: 576827411
       sp_MinionGoblin_Idle_2: 1619998823
       Fountain_Red_2: 1368859149
@@ -6698,11 +6700,9 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_319: 1719026205
       0x72_DungeonTilesetII_v1.4_518: -1038708496
       sp_Elf_Walk_4: -1550445404
-      Potion_Blue_1: -1691455396
       Chest: -1972677652
-      0x72_DungeonTilesetII_v1.4_240: 823587595
       sp_MinionOrc2_Walk_2: -930137277
-      Coin_4: 482719779
+      0x72_DungeonTilesetII_v1.4_240: 823587595
       0x72_DungeonTilesetII_v1.4_2: -1681358541
       sp_MinionOrc1_Idle_3: 1146828232
       0x72_DungeonTilesetII_v1.4_171: 1927841220
@@ -6717,19 +6717,17 @@ TextureImporter:
       Weapon_Arrow: -500011195
       Flag_Yellow: 1059831110
       0x72_DungeonTilesetII_v1.4_409: -1858195663
+      Item_Potion_Orange_2: 2114319059
       0x72_DungeonTilesetII_v1.4_484: 32483677
-      Coin_2: 44550256
-      0x72_DungeonTilesetII_v1.4_123: -1791585911
-      Potion_Green_1: 45254499
-      sp_BossTroll_Idle_1: -1257477895
       sp_MinionOrc3_Walk_1: -327847010
+      0x72_DungeonTilesetII_v1.4_123: -1791585911
+      sp_BossTroll_Idle_1: -1257477895
       0x72_DungeonTilesetII_v1.4_369: 852783239
       0x72_DungeonTilesetII_v1.4_122: 463096874
       0x72_DungeonTilesetII_v1.4_367: 739221918
       sp_MinionImp_Idle_2: 575514796
       sp_MinionImp_Idle_3: 130323328
       sp_MinionOrc3_Walk_4: -1492790644
-      Heart_1: -1810166391
       0x72_DungeonTilesetII_v1.4_520: 557616869
       sp_MinionOrc3_Walk_2: -1806821242
       0x72_DungeonTilesetII_v1.4_299: -1061388342
@@ -6741,7 +6739,6 @@ TextureImporter:
       Wall_3: 975998404
       Flag_Red: 1567826906
       0x72_DungeonTilesetII_v1.4_322: 1912611995
-      Potion_Blue_2: 417640692
       Weapon_Bow: -782545936
       0x72_DungeonTilesetII_v1.4_324: 986589387
       sp_MinionOrc2_Idle_2: -1256382754
@@ -6785,7 +6782,6 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_399: 236140572
       Ground_4: 1416674158
       Weapon_ShortSword_3: -1356118580
-      Potion_Orange_2: 2114319059
       0x72_DungeonTilesetII_v1.4_422: 1772572545
       sp_Fairly_Walk_3: -1948090879
       0x72_DungeonTilesetII_v1.4_101: 143033699
@@ -6806,7 +6802,6 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_77: -1995486025
       0x72_DungeonTilesetII_v1.4_444: 25760138
       0x72_DungeonTilesetII_v1.4_155: -77124310
-      Potion_Yellow_1: -1436914237
       Ground_5: -94476226
       0x72_DungeonTilesetII_v1.4_346: -1792344542
       sp_MinionOrc2_Idle_1: -1049268236
@@ -6819,9 +6814,11 @@ TextureImporter:
       sp_BossTroll_Walk_1: 86861927
       sp_MinionSkull_Walk_3: -279447822
       sp_MinionDemon1_Walk_3: 1950999838
+      Item_Potion_Green_1: 45254499
       sp_BossTroll_Idle_4: 801602724
       Gate_1: 1497103760
       0x72_DungeonTilesetII_v1.4_473: -8918118
+      UI_Heart_2: -1970552368
       Weapon_Dagger: -865824981
       0x72_DungeonTilesetII_v1.4_98: -202829091
       sp_Knight_Walk_4: 981470394
@@ -6849,6 +6846,7 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_446: 1997378506
       sp_MinionGoblin_Idle_4: -1442604692
       sp_BossDemon_Idle_1: -1429009383
+      Item_Coin_2: 44550256
       0x72_DungeonTilesetII_v1.4_13: -1750027961
       sp_MageF_Walk_2: 1584021494
       sp_MinionGoblin_Walk_4: -145490926
@@ -6887,13 +6885,14 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_125: -1688764988
       sp_MinionOrc3_Idle_3: 2126814404
       Weapon_ShortSword_4: 1315347538
-      Coin_3: -977408851
+      sp_Elf_Idle_1: -1741028425
       sp_ElfF_Idle_4: 72245230
       0x72_DungeonTilesetII_v1.4_427: 70629371
       0x72_DungeonTilesetII_v1.4_411: -872331731
-      sp_Elf_Idle_1: -1741028425
+      Item_Potion_Green_2: -1394461196
       Fountain_Head: 1637199800
       0x72_DungeonTilesetII_v1.4_397: 831420123
+      UI_Heart_1: -1810166391
       0x72_DungeonTilesetII_v1.4_201: 64019321
       0x72_DungeonTilesetII_v1.4_294: 1166016094
       0x72_DungeonTilesetII_v1.4_45: 1630778558
@@ -6909,17 +6908,19 @@ TextureImporter:
       sp_MinionWater_Walk_1: -1791918675
       0x72_DungeonTilesetII_v1.4_488: 2019886317
       0x72_DungeonTilesetII_v1.4_246: 1665537668
-      Weapon_Hammer_2: 148529984
       Flag_Blue: 1949602808
-      sp_MinionImp_Walk_4: -1351738399
+      Weapon_Hammer_2: 148529984
       Chest_Treasure_2: -646179081
+      sp_MinionImp_Walk_4: -1351738399
       sp_MinionOrc1_Idle_1: -473822298
       Weapon_Axe_1: 2110116401
       0x72_DungeonTilesetII_v1.4_217: -608274518
+      Item_Potion_Blue_2: 417640692
       sp_MinionDemon1_Idle_3: -1612312711
       0x72_DungeonTilesetII_v1.4_4: -6891251
       0x72_DungeonTilesetII_v1.4_430: -978317734
       0x72_DungeonTilesetII_v1.4_154: -897071565
+      UI_Heart_3: 474570783
       sp_MinionFlesh_Walk_2: 731060908
       sp_MinionOrc1_Walk_4: 1721729602
       0x72_DungeonTilesetII_v1.4_235: 30493964
@@ -6936,6 +6937,7 @@ TextureImporter:
       sp_Knight_Walk_2: -355355418
       0x72_DungeonTilesetII_v1.4_50: -1172193263
       0x72_DungeonTilesetII_v1.4_216: -1604946882
+      Item_Coin_4: 482719779
       Weapon_Mace_2: -367238183
       Fountain_Blue_1: -1615599392
       Player_ElfMale_9: 222798094
@@ -6945,6 +6947,7 @@ TextureImporter:
       Wall_5: 825811926
       Gate_LeftWall: 639892621
       sp_Elf_Idle_2: 219383500
+      Item_Potion_Yellow_2: -1959527628
       0x72_DungeonTilesetII_v1.4_195: 1015061218
       0x72_DungeonTilesetII_v1.4_142: 39026518
       0x72_DungeonTilesetII_v1.4_297: 391782422
@@ -6955,12 +6958,11 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_376: 1817154464
       0x72_DungeonTilesetII_v1.4_458: 165984342
       0x72_DungeonTilesetII_v1.4_331: 1256976894
-      Coin_1: -1930087062
       sp_Lizard_Walk_4: 2140917212
       sp_MinionSkull_Idle_1: -407410591
       0x72_DungeonTilesetII_v1.4_49: 1883700005
-      0x72_DungeonTilesetII_v1.4_79: -1809243805
       sp_MinionSkull_Walk_2: -807923796
+      0x72_DungeonTilesetII_v1.4_79: -1809243805
       Stair_1: -566294803
       0x72_DungeonTilesetII_v1.4_146: -1442599533
       0x72_DungeonTilesetII_v1.4_187: 994517854
@@ -7005,14 +7007,12 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_6: -375860342
       0x72_DungeonTilesetII_v1.4_503: 1092401644
       Weapon_ShortSword_2: -1858175086
-      Potion_Yellow_2: -1959527628
       sp_MageF_Walk_4: 890004687
       0x72_DungeonTilesetII_v1.4_445: 1948538860
       0x72_DungeonTilesetII_v1.4_219: 1886049243
       sp_MinionImp_Idle_1: -1526977810
       0x72_DungeonTilesetII_v1.4_286: 2131891431
       Weapon_LongtSword_1: 1807352568
-      Potion_Orange_1: -1281652611
       sp_BossTroll_Idle_2: -840578061
       sp_BossOrc_Idle_1: -1256589696
       sp_ElfF_Idle_2: 1435080280
@@ -7040,9 +7040,9 @@ TextureImporter:
       sp_MinionDemon2_Walk_3: 1661574629
       sp_MinionVenom_Walk_1: -1907765686
       Weapon_Staff_2: 1671021172
-      Heart_2: -1970552368
       0x72_DungeonTilesetII_v1.4_48: 194620201
       0x72_DungeonTilesetII_v1.4_486: 1778567807
+      Item_Coin_3: -977408851
       0x72_DungeonTilesetII_v1.4_405: 1963841491
       Ground_Hole: 2069119398
       sp_MinionSoccer_Idle_2: -624619664
@@ -7055,6 +7055,7 @@ TextureImporter:
       sp_MinionOrc1_Walk_2: 1697130961
       0x72_DungeonTilesetII_v1.4_203: -675389498
       0x72_DungeonTilesetII_v1.4_368: 1630234268
+      Item_Potion_Yellow_1: -1436914237
       0x72_DungeonTilesetII_v1.4_326: -1647143716
       0x72_DungeonTilesetII_v1.4_380: 524627350
       Wall_4: 1068132293
@@ -7076,9 +7077,9 @@ TextureImporter:
       0x72_DungeonTilesetII_v1.4_24: 1266368895
       0x72_DungeonTilesetII_v1.4_22: -1048647374
       Button_Blue_2: -649723673
+      Item_Coin_1: -1930087062
       sp_MinionOrc1_Idle_2: 1410732282
       0x72_DungeonTilesetII_v1.4_26: 474570783
-      Heart_3: -1226685760
       sp_Knight_Idle_2: 1347657012
       sp_MinionGoblin_Walk_2: 952393780
       Button_Red_2: 703328510
@@ -7088,7 +7089,6 @@ TextureImporter:
       Fountain_Red_3: -850356916
       0x72_DungeonTilesetII_v1.4_156: -1446998907
       0x72_DungeonTilesetII_v1.4_522: -1060915862
-      Potion_Green_2: 257211500
       0x72_DungeonTilesetII_v1.4_95: -787035036
       0x72_DungeonTilesetII_v1.4_282: -368970404
       sp_MinionDemon2_Idle_1: 47424650

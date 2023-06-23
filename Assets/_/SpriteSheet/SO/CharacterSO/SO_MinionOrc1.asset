@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2658d49c5115b4d9a0880840f9581c, type: 3}
   m_Name: SO_MinionOrc1
   m_EditorClassIdentifier: 
-  characterName: 
-  healthPoint: 0
-  baseAttackDamage: 0
-  baseAttackInterval: 0
-  baseMoveSpeed: 0
-  sprite: {fileID: 0}
-  animatorController: {fileID: 0}
+  characterName: MinionOrc1
+  healthPoint: 11.445105
+  baseAttackDamage: 1.2578005
+  baseAttackInterval: 1.1441927
+  baseMoveSpeed: 1.033155
+  sprite: {fileID: -473822298, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+  animatorController: {fileID: 9100000, guid: 4e1c52fee8a6aad4d8d555659f595a25, type: 2}

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2658d49c5115b4d9a0880840f9581c, type: 3}
   m_Name: SO_BossTroll
   m_EditorClassIdentifier: 
-  characterName: 
-  healthPoint: 0
-  baseAttackDamage: 0
-  baseAttackInterval: 0
-  baseMoveSpeed: 0
-  sprite: {fileID: 0}
-  animatorController: {fileID: 0}
+  characterName: BossTroll
+  healthPoint: 143.10194
+  baseAttackDamage: 12.8313675
+  baseAttackInterval: 11.27269
+  baseMoveSpeed: 10.768689
+  sprite: {fileID: -1257477895, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+  animatorController: {fileID: 9100000, guid: 4679818bd42aef641865d5cde293302d, type: 2}

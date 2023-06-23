@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Blocking
+  - Actor
   - 
   - 
   - 
@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer 1
+  - name: Floor
+    uniqueID: 2435645349
+    locked: 0
+  - name: Wall
+    uniqueID: 3817635189
+    locked: 0
+  - name: Actor
     uniqueID: 1203257863
+    locked: 0
+  - name: Item
+    uniqueID: 2457395173
     locked: 0

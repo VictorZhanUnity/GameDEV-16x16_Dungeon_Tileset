@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2658d49c5115b4d9a0880840f9581c, type: 3}
   m_Name: SO_BossDemon
   m_EditorClassIdentifier: 
-  characterName: 
-  healthPoint: 0
-  baseAttackDamage: 0
-  baseAttackInterval: 0
-  baseMoveSpeed: 0
-  sprite: {fileID: 0}
-  animatorController: {fileID: 0}
+  characterName: BossDemon
+  healthPoint: 146.26166
+  baseAttackDamage: 12.276581
+  baseAttackInterval: 11.08651
+  baseMoveSpeed: 10.089581
+  sprite: {fileID: 1145231534, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
+  animatorController: {fileID: 9100000, guid: 88fad0b887a2460468255db4bc0a4944, type: 2}

@@ -13,15 +13,15 @@ public class CharacterDataSetting
       sprite = item.iconSprite,
       animatorController = item.animatorController,
       //temp 暫時設定，之後要用外部cvs檔設定
-      healthPoint = TempGetRandomValue(item, 10, 20), 
-      baseAttack = TempGetRandomValue(item, 1, 3),
-      baseAttackInterval = TempGetRandomValue(item, 1, 2),
-      baseMoveSpeed = TempGetRandomValue(item, 1, 3),
+      healthPoint = TempGetRandomValue(item, 10, 15), 
+      baseAttack = TempGetRandomValue(item, 1, 1.3f),
+      baseAttackInterval = TempGetRandomValue(item, 1, 1.2f),
+      baseMoveSpeed = TempGetRandomValue(item, 1, 2f),
     };
     return result;
   }
 
-  private static int TempGetRandomValue(SpriteSheetItem item, int minValue, int maxValue)
+  private static float TempGetRandomValue(SpriteSheetItem item, float minValue, float maxValue)
   {
     int multiple = 1;
     if (item.characterName.Contains("Boss")) multiple = 10;

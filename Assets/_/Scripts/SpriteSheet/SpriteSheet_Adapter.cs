@@ -78,7 +78,6 @@ public class SpriteSheet_Adapter : MonoBehaviour
   {
     [Header(">>> 擷取SpriteSheet各圖案")] public SpriteAutoGetter spriteAutoGetter;
     [Header(">>> 生產各個BlendTree Action")] public BlendTreeCreator blendTreeCreator;
-
     [Header(">>> 生產CharacterSO")] public ScriptableObjectCreater soCreater;
   }
 }
