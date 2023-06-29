@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_Fairly
   m_EditorClassIdentifier: 
   characterName: Fairly
-  healthPoint: 12.463251
-  baseAttackDamage: 1.0670338
-  baseAttackInterval: 1.1008601
-  baseMoveSpeed: 1.0002074
+  healthPoint: 11.82027
+  baseAttackDamage: 1.0655141
+  baseAttackInterval: 1.0764879
+  baseMoveSpeed: 1.3273118
   sprite: {fileID: -1408321653, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 50613f749c59b0a47923e8d165979e9b, type: 2}

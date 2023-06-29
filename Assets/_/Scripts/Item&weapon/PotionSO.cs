@@ -15,6 +15,14 @@ public class PotionSO : ItemSO
     string assetPath = "ScriptableObject/PotionSO/";
     return Utility.CreateScriptableObject<PotionSO>(assetPath, "PotionSO");
   }
+
+  private void OnValidate()
+  {
+    if (iconSprite != null && itemName.Trim().Length == 0)
+    {
+      itemName = iconSprite.name;
+    }
+  }
 }
 public enum PotionType
 {

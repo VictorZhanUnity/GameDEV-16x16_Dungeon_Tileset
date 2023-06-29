@@ -6,25 +6,23 @@ using static CharacterSO;
 
 public class SpriteSheet_Adapter : MonoBehaviour
 {
-  [SerializeField] private Handler _createFileHandler;
+  [SerializeField] private Comps _comps;
 
   [SerializeField, Header(">>> 生產各個動畫Clip與Framerate設定")] private AnimationCreator _animationCreator;
   [SerializeField, Header(">>> Character相關數據")] private CharacterDataSetting _characterDataSetting;
 
-  private List<Sprite> _headerSpritesList;
   private Dictionary<string, SpriteSheetItem> _characterDict;
 
   [ContextMenu("★ 自動擷取SpriteSheet生成動畫Clip")]
   public void AutoGenerateAnimationSet()
   {
     Debug.Log($">>> 開始擷取SpriteSheet...");
-
-    _headerSpritesList = _createFileHandler.spriteAutoGetter.GetResourceSprites();
-    _characterDict = _createFileHandler.spriteAutoGetter.ClassficationSprites(_headerSpritesList);
+    _characterDict = _comps.ClassficationSprites();
+    
     foreach (string characterName in _characterDict.Keys)
     {
       _animationCreator.CreateAnimationFiles(_characterDict[characterName]);
-      _createFileHandler.blendTreeCreator.CreateBlendTree_Move(_characterDict[characterName]);
+      _comps.CreateBlendTree_Move(_characterDict[characterName]);
 
       CreateCharacterSO(_characterDict[characterName]);
 
@@ -39,7 +37,7 @@ public class SpriteSheet_Adapter : MonoBehaviour
   private void CreateCharacterSO(SpriteSheetItem item)
   {
     CharacterSO_Data characterData = CharacterDataSetting.GetCharacterStatus(item);
-    ScriptableObjectCreater.Create_CharacterSO(characterData);
+    CharacterSOCreater.Create_CharacterSO(characterData);
   }
   #endregion
 
@@ -69,15 +67,29 @@ public class SpriteSheet_Adapter : MonoBehaviour
     /// </summary>
     public Dictionary<string, AnimationClip> actionAnimationDict = new Dictionary<string, AnimationClip>();
   }
-  public enum ActionType
-  {
-    Idle, Walk
-  }
+  
+  
   [Serializable]
-  private class Handler
+  private class Comps
   {
-    [Header(">>> 擷取SpriteSheet各圖案")] public SpriteAutoGetter spriteAutoGetter;
-    [Header(">>> 生產各個BlendTree Action")] public BlendTreeCreator blendTreeCreator;
-    [Header(">>> 生產CharacterSO")] public ScriptableObjectCreater soCreater;
+    [SerializeField, Header(">>> 擷取SpriteSheet各圖案")] private SpriteAutoGetter _spriteAutoGetter;
+    [SerializeField, Header(">>> 生產各個BlendTree Action")] private BlendTreeCreator _blendTreeCreator;
+    [SerializeField, Header(">>> 生產CharacterSO")] private CharacterSOCreater _soCreater;
+
+    /// <summary>
+    /// 擷取SpriteSheet，並依角色名分類為SpriteSheetItem
+    /// </summary>
+    public Dictionary<string, SpriteSheetItem> ClassficationSprites()
+    {
+      List<Sprite> spriteList = _spriteAutoGetter.GetResourceSprites();
+      Dictionary<string, SpriteSheetItem> characterDict = _spriteAutoGetter.ClassficationSprites(spriteList);
+      return characterDict;
+    }
+
+    /// <summary>
+    /// 創建BlendTree
+    /// </summary>
+    /// <param name="item"></param>
+    public void CreateBlendTree_Move(SpriteSheetItem item) => _blendTreeCreator.CreateBlendTree_Move(item);
   }
 }

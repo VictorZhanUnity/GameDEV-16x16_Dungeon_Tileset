@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_Elf
   m_EditorClassIdentifier: 
   characterName: Elf
-  healthPoint: 13.969419
-  baseAttackDamage: 1.0138514
-  baseAttackInterval: 1.0157924
-  baseMoveSpeed: 1.7539781
+  healthPoint: 13.247225
+  baseAttackDamage: 1.2306991
+  baseAttackInterval: 1.1492373
+  baseMoveSpeed: 1.398596
   sprite: {fileID: -1741028425, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: ae018363ea18ccb4fbf896d3af8a16cc, type: 2}

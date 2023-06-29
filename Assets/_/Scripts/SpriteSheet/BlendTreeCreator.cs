@@ -2,6 +2,7 @@ using System;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
+using static AnimationCreator;
 using static SpriteSheet_Adapter;
 
 [Serializable]
@@ -31,9 +32,7 @@ public class BlendTreeCreator
 
     Debug.Log($">>> --- 建立 {blendTree.name} [{item.characterName}]: {idle}, {walk}");
     AssetDatabase.AddObjectToAsset(blendTree, item.animatorController);
-    AssetDatabase.SaveAssets();/*
-    EditorUtility.SetDirty(blendTree);
-    EditorUtility.SetDirty(item.animatorController);*/
+    AssetDatabase.SaveAssets();
   }
 
   [Serializable]

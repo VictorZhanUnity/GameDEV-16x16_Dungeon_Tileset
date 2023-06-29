@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-  public ScriptableObjectCreater scriptableObjectCreater;
+  public CharacterSOCreater scriptableObjectCreater;
 
   // Start is called before the first frame update
   void Start()

@@ -16,16 +16,6 @@ public class PlayerController : MonoBehaviour
   #endregion
 
 
-  public void CollectPotion(PotionSO potion)
-  {
-    Debug.Log($"CollectPotion: {potion.potionType}, {potion.power}");
-  }
-  public void CollectWeapon(GameObject weapon)
-  {
-    Debug.Log($"CollectWeapon:{weapon.name}");
-  }
-
-
   #region [>>> Unity Functions]
   private void FixedUpdate()
   {
@@ -47,6 +37,25 @@ public class PlayerController : MonoBehaviour
       });
     }
   }
+
+  private void OnTriggerEnter2D(Collider2D other)
+  {
+    if (other.TryGetComponent(out Item item))
+    {
+      ItemSO itemSO = item.Collect();
+      Debug.Log($"itemSO: {itemSO}");
+
+      if(itemSO.itemType == ItemType.Potion)
+      {
+        Drink(itemSO as PotionSO);
+      }
+    }
+  }
+  private void Drink(PotionSO potion)
+  {
+
+  }
+
 
   [ContextMenu("- GetComps")]
   private void GetComps() => _comps.GetComponents(transform);

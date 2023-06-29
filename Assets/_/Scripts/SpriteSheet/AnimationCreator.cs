@@ -110,5 +110,9 @@ public class AnimationCreator
       this.frameRate = frameRate;
     }
   }
+  public enum ActionType
+  {
+    Idle, Walk
+  }
 
 }

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_MinionWood
   m_EditorClassIdentifier: 
   characterName: MinionWood
-  healthPoint: 14.912717
-  baseAttackDamage: 1.0468568
-  baseAttackInterval: 1.1030843
-  baseMoveSpeed: 1.229972
+  healthPoint: 10.318488
+  baseAttackDamage: 1.0461285
+  baseAttackInterval: 1.0472375
+  baseMoveSpeed: 1.8130038
   sprite: {fileID: -2093824392, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 0664b8b4d1b20be45a220daa0738db0c, type: 2}

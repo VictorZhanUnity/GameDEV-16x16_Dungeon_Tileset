@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_BossOrc
   m_EditorClassIdentifier: 
   characterName: BossOrc
-  healthPoint: 112.99522
-  baseAttackDamage: 10.151327
-  baseAttackInterval: 10.970199
-  baseMoveSpeed: 11.75629
+  healthPoint: 125.66312
+  baseAttackDamage: 10.877798
+  baseAttackInterval: 10.680145
+  baseMoveSpeed: 10.516352
   sprite: {fileID: -1256589696, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 1c9e46b6db9636f4685dcab055ccaf60, type: 2}

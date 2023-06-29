@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_MinionOrc2
   m_EditorClassIdentifier: 
   characterName: MinionOrc2
-  healthPoint: 20.992802
-  baseAttackDamage: 2.335476
-  baseAttackInterval: 2.0245724
-  baseMoveSpeed: 2.9507155
+  healthPoint: 23.717068
+  baseAttackDamage: 2.4821472
+  baseAttackInterval: 2.0427313
+  baseMoveSpeed: 3.6148424
   sprite: {fileID: -1049268236, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 46f4bc1efc604234d91b15b2dd975595, type: 2}

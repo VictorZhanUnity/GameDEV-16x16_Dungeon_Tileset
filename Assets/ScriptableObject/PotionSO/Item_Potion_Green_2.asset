@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a30f30d29bce39499f6ccbef48d5579, type: 3}
-  m_Name: Potion_Health_LV2
+  m_Name: Item_Potion_Green_2
   m_EditorClassIdentifier: 
+  itemName: Potion_Mana
   itemType: 2
-  iconSprite: {fileID: 2114319059, guid: 3d3ce4be86ef53a4c864bb3e10cc66bd, type: 3}
+  iconSprite: {fileID: -1394461196, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   potionType: 0
   power: 3

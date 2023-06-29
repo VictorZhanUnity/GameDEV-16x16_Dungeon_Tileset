@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_BossDemon
   m_EditorClassIdentifier: 
   characterName: BossDemon
-  healthPoint: 148.4582
-  baseAttackDamage: 12.583221
-  baseAttackInterval: 11.007612
-  baseMoveSpeed: 18.973795
+  healthPoint: 137.2699
+  baseAttackDamage: 12.185992
+  baseAttackInterval: 11.895926
+  baseMoveSpeed: 18.541264
   sprite: {fileID: 1145231534, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 88fad0b887a2460468255db4bc0a4944, type: 2}

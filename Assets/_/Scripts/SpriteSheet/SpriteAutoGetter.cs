@@ -60,8 +60,8 @@ public class SpriteAutoGetter
     string character, action;
     foreach (Sprite sprite in headerSpritesList)
     {
-      character = sprite.name.Split('_')[1];
-      action = sprite.name.Split('_')[2];
+      character = sprite.name.Split('_')[1]; //角色名
+      action = sprite.name.Split('_')[2];   //動作名
 
       // 依照character建立SpriteSheetItem
       if (result.ContainsKey(character) == false)
@@ -79,7 +79,6 @@ public class SpriteAutoGetter
         result[character].actionSpriteDict[action] = new List<Sprite>();
       }
       result[character].actionSpriteDict[action].Add(sprite);
-
     }
 
     //顯示已擷取的Sprite
