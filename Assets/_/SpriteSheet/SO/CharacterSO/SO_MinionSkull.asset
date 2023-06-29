@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_MinionSkull
   m_EditorClassIdentifier: 
   characterName: MinionSkull
-  healthPoint: 11.100832
-  baseAttackDamage: 1.2908959
-  baseAttackInterval: 1.0354842
-  baseMoveSpeed: 1.0433495
+  healthPoint: 10.659907
+  baseAttackDamage: 1.2138971
+  baseAttackInterval: 1.0659091
+  baseMoveSpeed: 1.1639309
   sprite: {fileID: -407410591, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: de81937a45ddcf24290dc0cbc9e4d0ac, type: 2}

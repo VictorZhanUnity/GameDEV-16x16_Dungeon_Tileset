@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_Mage
   m_EditorClassIdentifier: 
   characterName: Mage
-  healthPoint: 11.420641
-  baseAttackDamage: 1.0633394
-  baseAttackInterval: 1.0270517
-  baseMoveSpeed: 1.093658
+  healthPoint: 13.943809
+  baseAttackDamage: 1.032105
+  baseAttackInterval: 1.0811336
+  baseMoveSpeed: 1.3821108
   sprite: {fileID: -840389118, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: ec988633b0494f942b995d88892504f2, type: 2}

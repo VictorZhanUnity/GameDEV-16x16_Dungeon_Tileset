@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a30f30d29bce39499f6ccbef48d5579, type: 3}
   m_Name: Potion_Health_LV2
   m_EditorClassIdentifier: 
+  itemType: 2
   iconSprite: {fileID: 2114319059, guid: 3d3ce4be86ef53a4c864bb3e10cc66bd, type: 3}
   potionType: 0
   power: 3

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_MinionDemon1
   m_EditorClassIdentifier: 
   characterName: MinionDemon1
-  healthPoint: 13.875719
-  baseAttackDamage: 1.0059378
-  baseAttackInterval: 1.0997721
-  baseMoveSpeed: 1.087094
+  healthPoint: 10.6603985
+  baseAttackDamage: 1.1203824
+  baseAttackInterval: 1.0456147
+  baseMoveSpeed: 1.493289
   sprite: {fileID: 1175994415, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 8f9f5e2f9bdf2fb4cb6a34e5b8dccc4a, type: 2}

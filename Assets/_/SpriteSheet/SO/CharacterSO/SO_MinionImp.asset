@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_MinionImp
   m_EditorClassIdentifier: 
   characterName: MinionImp
-  healthPoint: 12.600787
-  baseAttackDamage: 1.0707266
-  baseAttackInterval: 1.101397
-  baseMoveSpeed: 1.0087628
+  healthPoint: 10.544782
+  baseAttackDamage: 1.2678107
+  baseAttackInterval: 1.058099
+  baseMoveSpeed: 1.2428789
   sprite: {fileID: -1526977810, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 5a652a3538dc98c44b9cf28e72da7f03, type: 2}

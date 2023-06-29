@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_MinionVenom
   m_EditorClassIdentifier: 
   characterName: MinionVenom
-  healthPoint: 14.246452
-  baseAttackDamage: 1.1240659
-  baseAttackInterval: 1.0125656
-  baseMoveSpeed: 1.0888375
+  healthPoint: 14.597203
+  baseAttackDamage: 1.0122736
+  baseAttackInterval: 1.166788
+  baseMoveSpeed: 1.5225573
   sprite: {fileID: -1463852157, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: de913a0778c8355448a490f8c576aa72, type: 2}

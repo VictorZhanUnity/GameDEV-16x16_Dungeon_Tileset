@@ -3,7 +3,7 @@ using UnityEngine;
 using VictorUtilties;
 
 [CreateAssetMenu(fileName = "New PotionSO", menuName = "+ New/ScripteableObject/Potion")]
-public class PotionSO : ScriptableObject
+public class PotionSO : ItemSO
 {
   public Sprite iconSprite;
   public PotionType potionType;

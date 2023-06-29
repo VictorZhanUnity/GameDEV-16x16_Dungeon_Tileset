@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_Knight
   m_EditorClassIdentifier: 
   characterName: Knight
-  healthPoint: 10.362905
-  baseAttackDamage: 1.2929766
-  baseAttackInterval: 1.0307078
-  baseMoveSpeed: 1.0760094
+  healthPoint: 13.184631
+  baseAttackDamage: 1.107292
+  baseAttackInterval: 1.0205226
+  baseMoveSpeed: 1.3787918
   sprite: {fileID: -792848051, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 2d822c50631ab7a42b85dbb620ddc9f5, type: 2}

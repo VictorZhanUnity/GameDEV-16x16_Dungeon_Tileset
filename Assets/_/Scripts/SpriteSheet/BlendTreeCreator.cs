@@ -30,9 +30,10 @@ public class BlendTreeCreator
     item.animatorController.AddParameter(parameterName, AnimatorControllerParameterType.Float);
 
     Debug.Log($">>> --- 建立 {blendTree.name} [{item.characterName}]: {idle}, {walk}");
-    AssetDatabase.SaveAssets();
+    AssetDatabase.AddObjectToAsset(blendTree, item.animatorController);
+    AssetDatabase.SaveAssets();/*
     EditorUtility.SetDirty(blendTree);
-    EditorUtility.SetDirty(item.animatorController);
+    EditorUtility.SetDirty(item.animatorController);*/
   }
 
   [Serializable]

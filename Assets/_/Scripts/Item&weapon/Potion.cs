@@ -4,6 +4,7 @@ using UnityEngine;
 public class Potion : TriggerHandler
 {
   [SerializeField, Space(10)] private PotionSO _potionSO;
+  [SerializeField, Space(10)] private ItemSO _itemSO;
 
   protected override void OnTriggerBegin(Collider2D target)
   {

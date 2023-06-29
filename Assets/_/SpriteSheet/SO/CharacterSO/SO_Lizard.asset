@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_Lizard
   m_EditorClassIdentifier: 
   characterName: Lizard
-  healthPoint: 12.086786
-  baseAttackDamage: 1.2974521
-  baseAttackInterval: 1.1367383
-  baseMoveSpeed: 1.0362358
+  healthPoint: 12.788485
+  baseAttackDamage: 1.0338091
+  baseAttackInterval: 1.1205484
+  baseMoveSpeed: 1.2736037
   sprite: {fileID: 988249213, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 95bfecf3aa3c60d47bec027366cc49ad, type: 2}

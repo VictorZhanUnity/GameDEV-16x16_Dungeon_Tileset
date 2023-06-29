@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_MinionFlesh
   m_EditorClassIdentifier: 
   characterName: MinionFlesh
-  healthPoint: 14.062228
-  baseAttackDamage: 1.1747947
-  baseAttackInterval: 1.1202261
-  baseMoveSpeed: 1.0250791
+  healthPoint: 11.167713
+  baseAttackDamage: 1.1656983
+  baseAttackInterval: 1.1154282
+  baseMoveSpeed: 1.5925167
   sprite: {fileID: -1078505569, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: aba7426881b5fcf4ab7225bf375936c2, type: 2}

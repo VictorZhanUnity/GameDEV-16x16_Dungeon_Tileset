@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SO_MinionWater
   m_EditorClassIdentifier: 
   characterName: MinionWater
-  healthPoint: 13.541462
-  baseAttackDamage: 1.0384489
-  baseAttackInterval: 1.040117
-  baseMoveSpeed: 1.0545301
+  healthPoint: 14.860076
+  baseAttackDamage: 1.1732478
+  baseAttackInterval: 1.0805993
+  baseMoveSpeed: 1.6523181
   sprite: {fileID: 1540797659, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 1398815f9e7291f458c56540078a3aa0, type: 2}
