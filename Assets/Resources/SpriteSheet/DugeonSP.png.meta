@@ -2903,7 +2903,7 @@ TextureImporter:
         width: 10
         height: 30
       alignment: 9
-      pivot: {x: 0.49999696, y: 0.107723996}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6904,18 +6904,18 @@ TextureImporter:
       Trap_1: -796130590
       0x72_DungeonTilesetII_v1.4_315: 1414178698
       Weapon_ShortSword_1: -1031471526
+      Chest_Treasure_2: -646179081
       sp_BossTroll_Walk_2: -1119837184
-      sp_MinionWater_Walk_1: -1791918675
       0x72_DungeonTilesetII_v1.4_488: 2019886317
       0x72_DungeonTilesetII_v1.4_246: 1665537668
       Flag_Blue: 1949602808
+      sp_MinionWater_Walk_1: -1791918675
       Weapon_Hammer_2: 148529984
-      Chest_Treasure_2: -646179081
+      Item_Potion_Blue_2: 417640692
       sp_MinionImp_Walk_4: -1351738399
       sp_MinionOrc1_Idle_1: -473822298
       Weapon_Axe_1: 2110116401
       0x72_DungeonTilesetII_v1.4_217: -608274518
-      Item_Potion_Blue_2: 417640692
       sp_MinionDemon1_Idle_3: -1612312711
       0x72_DungeonTilesetII_v1.4_4: -6891251
       0x72_DungeonTilesetII_v1.4_430: -978317734
@@ -6944,9 +6944,9 @@ TextureImporter:
       Button_Blue_1: -1502577683
       0x72_DungeonTilesetII_v1.4_5: -184026236
       0x72_DungeonTilesetII_v1.4_505: 228054112
-      Wall_5: 825811926
-      Gate_LeftWall: 639892621
       sp_Elf_Idle_2: 219383500
+      Gate_LeftWall: 639892621
+      Wall_5: 825811926
       Item_Potion_Yellow_2: -1959527628
       0x72_DungeonTilesetII_v1.4_195: 1015061218
       0x72_DungeonTilesetII_v1.4_142: 39026518
@@ -6961,8 +6961,8 @@ TextureImporter:
       sp_Lizard_Walk_4: 2140917212
       sp_MinionSkull_Idle_1: -407410591
       0x72_DungeonTilesetII_v1.4_49: 1883700005
-      sp_MinionSkull_Walk_2: -807923796
       0x72_DungeonTilesetII_v1.4_79: -1809243805
+      sp_MinionSkull_Walk_2: -807923796
       Stair_1: -566294803
       0x72_DungeonTilesetII_v1.4_146: -1442599533
       0x72_DungeonTilesetII_v1.4_187: 994517854

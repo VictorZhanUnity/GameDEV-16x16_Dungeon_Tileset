@@ -16,6 +16,6 @@ MonoBehaviour:
   healthPoint: 12.697731
   baseAttackDamage: 1.1288149
   baseAttackInterval: 1.1680372
-  baseMoveSpeed: 1.200776
+  baseMoveSpeed: 3
   sprite: {fileID: -792848051, guid: fd76d0fa089758c499aee30f2a1f5f21, type: 3}
   animatorController: {fileID: 9100000, guid: 2d822c50631ab7a42b85dbb620ddc9f5, type: 2}
